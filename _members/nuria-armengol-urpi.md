@@ -2,9 +2,8 @@
 name: Núria Armengol Urpí
 image: images/team/nuria-armengol-urpi.webp
 role: alumni
-description: PhD (CLS), until 2023
-affiliation: 'now: ETH Zürich'
-left: 2023
+description: PhD (CLS), until 2026
+left: 2026
 aliases:
 - Núria Armengol Urpí
 - Nuria Armengol Urpi
