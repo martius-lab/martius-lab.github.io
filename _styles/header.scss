@@ -47,6 +47,14 @@ header a {
   height: 100%;
 }
 
+// light background behind logos that need it (e.g. the color logo)
+.logo[data-badge] {
+  box-sizing: content-box;
+  padding: 10px 14px;
+  border-radius: var(--rounded);
+  background: #ffffffe0;
+}
+
 .title-text {
   display: flex;
   justify-content: flex-start;

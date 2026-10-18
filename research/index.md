@@ -5,7 +5,7 @@ nav:
   tooltip: Research areas and projects
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-robot" %}Research
 
 We are interested in autonomous learning, that is how an embodied agent can determine what to learn, how to learn, and how to judge the learning success.
 In particular, we focus on learning to control a robotic body in a developmental fashion.

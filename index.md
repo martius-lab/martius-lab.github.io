@@ -1,4 +1,6 @@
 ---
+logo: images/logo-color.png
+logo-badge: true
 ---
 
 # Autonomous Learning Group
@@ -122,4 +124,6 @@ PhD students, postdocs, and researchers in Tübingen and Zürich.
 
 ## Our Spin-offs
 
-[pi_optimal](https://pi-optimal.com/)
+- [pi_optimal](https://pi-optimal.com/)
+- [Polybot](https://polybot.eu/)
+- [Ontic Labs](https://onticlabs.io/)
