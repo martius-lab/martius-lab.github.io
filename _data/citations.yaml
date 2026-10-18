@@ -34,7 +34,6 @@
   date: '2026-01-01'
   link: https://arxiv.org/abs/2606.15896
   type: preprint
-  image: images/papers/kordos2026locomposition.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2606.15896
