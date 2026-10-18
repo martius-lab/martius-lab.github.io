@@ -11,7 +11,7 @@ postdoc:
   description: Postdoctoral Researcher
 
 researcher:
-  icon: fa-solid fa-flask
+  icon: fa-solid fa-robot
   description: Researcher
 
 phd:
