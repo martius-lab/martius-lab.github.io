@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Object-centric Self-supervised Reinforcement Learning | Autonomous Learning Group</title>
+
+<link rel="icon" href="/preview/pr-2/images/icon.png">
+
+<meta name="title" content="Object-centric Self-supervised Reinforcement Learning">
+<meta name="description" content="University of Tübingen. Using object-centric representations learned from images without supervision to construct goal spaces and compose independently controllable subgoals.">
+
+<meta property="og:title" content="Object-centric Self-supervised Reinforcement Learning">
+<meta property="og:site_title" content="Autonomous Learning Group">
+<meta property="og:description" content="University of Tübingen. Using object-centric representations learned from images without supervision to construct goal spaces and compose independently controllable subgoals.">
+<meta property="og:url" content="/preview/pr-2">
+<meta property="og:image" content="/preview/pr-2/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Object-centric Self-supervised Reinforcement Learning">
+<meta property="twitter:description" content="University of Tübingen. Using object-centric representations learned from images without supervision to construct goal spaces and compose independently controllable subgoals.">
+<meta property="twitter:url" content="/preview/pr-2">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-2/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Object-centric Self-supervised Reinforcement Learning",
+    "description": "University of Tübingen. Using object-centric representations learned from images without supervision to construct goal spaces and compose independently controllable subgoals.",
+    "headline": "Object-centric Self-supervised Reinforcement Learning",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-2/images/icon.png" }
+    },
+    "url": "/preview/pr-2"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-2/feed.xml">
+
+  <!-- fonts and icons, served from this site (see _vendor/fetch.py) -->
+<link href="/preview/pr-2/assets/vendor/fonts/fonts.css" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="/preview/pr-2/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="/preview/pr-2/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="/preview/pr-2/assets/vendor/pygments.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-2/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/slider.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts, served from this site (see _vendor/fetch.py) -->
+<script src="/preview/pr-2/assets/vendor/popper.min.js" defer></script>
+<script src="/preview/pr-2/assets/vendor/tippy.min.js" defer></script>
+<script src="/preview/pr-2/assets/vendor/mark.min.js" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-2/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-2/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-2/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-2/_scripts/search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/slider.js"></script>
+
+  <script src="/preview/pr-2/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-2/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/preview/pr-2/images/group/2026-schruns.webp')" data-dark="true">
+  <a href="/preview/pr-2/" class="home">
+    
+      <span class="logo">
+        
+          <img src="/preview/pr-2/images/logo.png" alt="logo">
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">Autonomous Learning Group</span>
+        
+        
+          <span class="subtitle">University of Tübingen</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-2/research/" data-tooltip="Research areas and projects">
+          Research
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/publications/" data-tooltip="All our papers">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/blog/" data-tooltip="News from the group">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/teaching/" data-tooltip="Lectures, seminars, and theses (university website)">
+          Teaching
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/open-positions/" data-tooltip="Join us (university website)">
+          Open Positions
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <p class="project-area">
+  <a href="/preview/pr-2/research/#model-free-rl">
+    <i class="icon fa-solid fa-arrow-left"></i>
+    Model-free Reinforcement Learning
+  </a>
+</p>
+
+<h1>Object-centric Self-supervised Reinforcement Learning</h1>
+
+
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-2/images/projects/object-centric-rl/fig1.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<p>Autonomous agents need large repertoires of skills to act reasonably on new tasks that they have not seen before. To learn such skills an agent can first learn a structured representation of the environment and then use it for the construction of the goal space. In particular, we propose to use object-centric representations learned from images without supervision.</p>
+
+<p>In the first project, we showed that object-centric representations could be learned from image observations collected by the random agent. Such representations serve as subgoals and could be used to solve challenging rearranging and pushing tasks in the environment without any external goals.</p>
+
+<p>In the second project, we investigate the problem of composing object-centric subgoals to solve complex compositional tasks, such as rearranging up to 6 different objects. To tackle this problem, we first infer the object interaction graph from object dynamics data and then use it for the construction of the independently controllable subgoals. Such subgoals could be combined in a sequence of compatible subgoals and allow the agent to solve each subgoal without destroying previously solved subgoals.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+  <h2 id="publications">Publications</h2>
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="Self-supervised Reinforcement Learning with Independently Controllable Subgoals">
+        <img src="/preview/pr-2/images/projects/object-centric-rl/teaser.webp" alt="Self-supervised Reinforcement Learning with Independently Controllable Subgoals" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a class="citation-title">
+        Self-supervised Reinforcement Learning with Independently Controllable Subgoals
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        <strong>Andrii Zadaianchuk</strong>, <strong>Georg Martius</strong>, Fanny Yang
+
+      </div>
+
+      <div class="citation-details">
+        
+          <span class="citation-publisher">Conference on Robot Learning</span>
+           · 
+        
+        <span class="citation-date">2021</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+  
+    
+
+    
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="Self-supervised Visual Reinforcement Learning with Object-centric Representations">
+        <img src="/preview/pr-2/images/projects/object-centric-rl/teaser.webp" alt="Self-supervised Visual Reinforcement Learning with Object-centric Representations" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a class="citation-title">
+        Self-supervised Visual Reinforcement Learning with Object-centric Representations
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        <strong>Andrii Zadaianchuk</strong>, <strong>Maximilian Seitzer</strong>, <strong>Georg Martius</strong>
+
+      </div>
+
+      <div class="citation-details">
+        
+          <span class="citation-publisher">International Conference on Learning Representations</span>
+           · 
+        
+        <span class="citation-date">2021</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-2/images/group/2026-schruns.webp')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:georg.martius@uni-tuebingen.de" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/martius-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Autonomous Learning Group
+      |   <a href="https://uni-tuebingen.de/en/imprint/">Imprint</a>
+      |   <a href="https://uni-tuebingen.de/en/data-privacy-statement/">Privacy</a>
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
