@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Autonomous Learning</title>
+
+<link rel="icon" href="/preview/pr-1/images/icon.png">
+
+<meta name="title" content="">
+<meta name="description" content="University of Tübingen. The Autonomous Learning group (Distributed Intelligence) at the University of Tübingen studies how embodied agents can learn autonomously: reinforcement learning, representation learning, intrinsic motivation, and haptic sensing.">
+
+<meta property="og:title" content="">
+<meta property="og:site_title" content="Autonomous Learning">
+<meta property="og:description" content="University of Tübingen. The Autonomous Learning group (Distributed Intelligence) at the University of Tübingen studies how embodied agents can learn autonomously: reinforcement learning, representation learning, intrinsic motivation, and haptic sensing.">
+<meta property="og:url" content="/preview/pr-1">
+<meta property="og:image" content="/preview/pr-1/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="">
+<meta property="twitter:description" content="University of Tübingen. The Autonomous Learning group (Distributed Intelligence) at the University of Tübingen studies how embodied agents can learn autonomously: reinforcement learning, representation learning, intrinsic motivation, and haptic sensing.">
+<meta property="twitter:url" content="/preview/pr-1">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-1/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "",
+    "description": "University of Tübingen. The Autonomous Learning group (Distributed Intelligence) at the University of Tübingen studies how embodied agents can learn autonomously: reinforcement learning, representation learning, intrinsic motivation, and haptic sensing.",
+    "headline": "",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-1/images/icon.png" }
+    },
+    "url": "/preview/pr-1"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-1/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-1/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/slider.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-1/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-1/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-1/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-1/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-1/_scripts/search.js"></script>
+
+  <script src="/preview/pr-1/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-1/_scripts/slider.js"></script>
+
+  <script src="/preview/pr-1/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-1/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/preview/pr-1/images/group/2026-schruns.webp')" data-dark="true" data-big>
+  <a href="/preview/pr-1/" class="home">
+    
+      <span class="logo">
+        
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">Autonomous Learning</span>
+        
+        
+          <span class="subtitle">University of Tübingen</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-1/research/" data-tooltip="Research areas and projects">
+          Research
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/publications/" data-tooltip="All our papers">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/blog/" data-tooltip="News from the group">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/teaching/" data-tooltip="Lectures, seminars, and theses (university website)">
+          Teaching
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/open-positions/" data-tooltip="Join us (university website)">
+          Open Positions
+        </a>
+      
+    
+      
+        <a href="/preview/pr-1/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 id="distributed-intelligence--autonomous-learning">Distributed Intelligence / Autonomous Learning</h1>
+
+<p>We are interested in autonomous learning, that is how an embodied agent can determine what to learn, how to learn, and how to judge the learning success.
+In particular, we focus on learning to control a robotic body in a developmental fashion.
+Artificial intrinsic motivations are a central component that we develop using information theory and dynamical systems theory.
+We work on reinforcement learning, representation learning, and internal model learning.</p>
+
+<div class="slider" data-interval="6000">
+  <div class="slider-track">
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2026-schruns.webp" alt="2026, Schruns" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2026, Schruns</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2025-schruns-1.webp" alt="2025, Schruns" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2025, Schruns</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2024-schruns.webp" alt="2024, Schruns" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2024, Schruns</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2023-venet.webp" alt="2023, Venet" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2023, Venet</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2022-bittenhalde.webp" alt="2022, Bittenhalde" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2022, Bittenhalde</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2021-todtmoos.webp" alt="2021, Todtmoos" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2021, Todtmoos</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2019-badurach.webp" alt="2019, Bad Urach" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2019, Bad Urach</figcaption>
+        
+      </figure>
+    
+      <figure class="slider-slide">
+        <img src="/preview/pr-1/images/group/2018-mpi.webp" alt="2018, MPI for Intelligent Systems" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+        
+          <figcaption class="slider-caption">2018, MPI for Intelligent Systems</figcaption>
+        
+      </figure>
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="highlights">Highlights</h2>
+
+<div class="feature">
+  <a href="/preview/pr-1/research" class="feature-image" aria-label="Our Research">
+    <img src="/preview/pr-1/images/projects/areas/model-based-rl.webp" loading="lazy" alt="Our Research" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Our Research</p>
+    
+    
+<p>Model-based and model-free reinforcement learning, intrinsic motivation, representation learning, combinatorial optimization, haptic sensing, and machine learning for science.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-1/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>Explore our research</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="feature" data-flip="">
+  <a href="/preview/pr-1/publications" class="feature-image" aria-label="Our Publications">
+    <img src="/preview/pr-1/images/projects/insight-haptic-sensor/teaser.webp" loading="lazy" alt="Our Publications" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Our Publications</p>
+    
+    
+<p>All our papers, searchable and sorted by year.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-1/publications" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>See our publications</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="feature">
+  <a href="/preview/pr-1/team" class="feature-image" aria-label="Our Team">
+    <img src="/preview/pr-1/images/group/2024-schruns.webp" loading="lazy" alt="Our Team" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Our Team</p>
+    
+    
+<p>PhD students, postdocs, and researchers in Tübingen and Zürich.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-1/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>Meet our team</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="latest-news">Latest News</h2>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-1/2026/10/18/new-website.html">Our new website</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        
+
+
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-1/members/georg-martius.html" class="portrait" data-style="tiny" aria-label="Georg Martius">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/preview/pr-1/images/team/georg-martius.webp" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Georg Martius
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+  </a>
+</div>
+
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>October 18, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/preview/pr-1/blog?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
+        news
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="Welcome to the new website of the Autonomous Learning group Here you will find our research projects, all our publications, and news from the group.Teaching and open positions remain on the university website.">
+        Welcome to the new website of the Autonomous Learning group!
+Here you will find our research projects, all our publications, and news from the group.
+Teaching and open positions remain on the university website.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-1/blog" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>All posts</span>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="funding-and-sponsors">Funding and Sponsors</h2>
+
+<div class="grid" data-style="">
+  
+<figure class="figure">
+  <a href="https://erc.europa.eu/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/erc.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="https://uni-tuebingen.de/forschung/forschungsschwerpunkte/exzellenzcluster-maschinelles-lernen/home/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/ml-cluster.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="https://tuebingen.ai/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/tuebingen-ai.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="https://imprs.is.mpg.de/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/imprs-is.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="https://cyber-valley.de/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/cyber-valley.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="https://www.volkswagenstiftung.de/" class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/volkswagen-foundation.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/bw-stiftung.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-1/images/funders/bmftr.webp" style="
+        width: 160px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-1/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+
+</div>
+
+<h2 id="our-spin-offs">Our Spin-offs</h2>
+
+<p><a href="https://pi-optimal.com/">pi_optimal</a></p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-1/images/group/2026-schruns.webp')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:georg.martius@uni-tuebingen.de" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/martius-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Autonomous Learning
+      |   <a href="https://uni-tuebingen.de/en/imprint/">Imprint</a>
+      |   <a href="https://uni-tuebingen.de/en/data-privacy-statement/">Privacy</a>
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
