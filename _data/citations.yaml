@@ -1165,13 +1165,13 @@
   plugin: bibtex.py
   file: bibtex.yaml
 - id: VlastelicaEtal2020:BBoxSolvers
-  title: Differentiation of Blackbox Combinatorial Solvers
+  title: Differentiation of blackbox combinatorial solvers
   authors:
   - '**Marin Vlastelica**'
   - '**Anselm Paulus**'
   - "V\xEDt Musil"
   - '**Georg Martius**'
-  - "M. Rol\xEDnek"
+  - "Michal Rol\xEDnek"
   publisher: International Conference on Learning Representations
   date: '2020-01-01'
   link: https://openreview.net/forum?id=BkevoJSYPB
