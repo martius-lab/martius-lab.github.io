@@ -1,17 +1,19 @@
 ---
 name: Nico Gürtler
 image: images/team/nico-guertler.webp
-role: phd
+role: alumni
+description: PhD, until 2026
+affiliation: 'now: Mimic AI'
+left: 2026
 aliases:
-  - Nico Gürtler
-  - Nico Guertler
-  - Nico Gurtler
-  - N. Gürtler
-  - N. Guertler
-  - N. Gurtler
+- Nico Gürtler
+- Nico Guertler
+- Nico Gurtler
+- N. Gürtler
+- N. Guertler
+- N. Gurtler
 links:
-  email: "nico.guertler@uni-tuebingen.de"
-office: "00-30/A18, Maria-von-Linden-Straße 6, 72076 Tübingen"
+  google-scholar: kuzmML4AAAAJ
 ---
 
 ## Research Interests

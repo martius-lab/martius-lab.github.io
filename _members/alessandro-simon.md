@@ -1,15 +1,13 @@
 ---
 name: Alessandro Simon
 image: images/team/alessandro-simon.webp
-role: phd
+role: alumni
+description: PhD
 aliases:
-  - Alessandro Simon
-  - A. Simon
-  - Alessandro Rodolfo Simon
-  - A. R. Simon
-links:
-  email: "alessandro-rodolfo.simon@uni-tuebingen.de"
-office: "Auf der Morgenstelle 10, 72076 Tübingen"
+- Alessandro Simon
+- A. Simon
+- Alessandro Rodolfo Simon
+- A. R. Simon
 ---
 
 ## Short CV
