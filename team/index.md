@@ -7,29 +7,32 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include slider.html data="group-photos" %}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Group Head
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Administration
+
+{% include list.html data="members" component="portrait" filter="role == 'admin'" %}
+
+## Researchers
+
+{% include list.html data="members" component="portrait" filter="role == 'postdoc' || role == 'researcher'" %}
+
+## PhD Students
+
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+## Master and Bachelor Students
+
+{% include list.html data="members" component="portrait" filter="role == 'student'" style="tiny" %}
 
 {% include section.html %}
 
-{% capture content %}
+## Alumni
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="small" %}
