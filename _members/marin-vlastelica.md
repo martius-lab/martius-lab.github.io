@@ -11,4 +11,6 @@ aliases:
 - Marin Vlastelica Pogančić
 - Marin Vlastelica Pogancic
 - M. Vlastelica Pogančić
+links:
+  home-page: https://las.inf.ethz.ch/people
 ---
