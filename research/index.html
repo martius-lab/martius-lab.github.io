@@ -212,6 +212,10 @@
   
 
   
+    <link href="/_styles/lab.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/link.css" rel="stylesheet">
   
 
@@ -472,7 +476,7 @@
 
   <section class="background" data-size="page">
     <h1 id="research">
-<i class="icon fa-solid fa-microscope"></i>Research</h1>
+<i class="icon fa-solid fa-robot"></i>Research</h1>
 
 <p>We are interested in autonomous learning, that is how an embodied agent can determine what to learn, how to learn, and how to judge the learning success.
 In particular, we focus on learning to control a robotic body in a developmental fashion.
@@ -492,13 +496,11 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="model-based-rl">Model-based Reinforcement Learning</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/model-based-rl.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>The goal of this project is to bring efficient learning-based control methods to real robots. A promising direction to learning from a few trials is to separate the task. First, train a model of the interactions with the environment and then use model-based reinforcement learning or model-based planning to control the robot. In a first work, we have explored the use of our equation learning framework for the forward model and obtained unparalleled performance on a cart-pendulum system. However, we found that it does not scale yet to relevant robotic systems.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/model-based-rl.webp" alt="Model-based Reinforcement Learning" loading="lazy">
+  
+  <p>The goal of this project is to bring efficient learning-based control methods to real robots. A promising direction to learning from a few trials is to separate the task. First, train a model of the interactions with the environment and then use model-based reinforcement learning or model-based planning to control the robot. In a first work, we have explored the use of our equation learning framework for the forward model and obtained unparalleled performance on a cart-pendulum system. However, we found that it does not scale yet to relevant robotic systems.</p>
 
 <p>A widely used method in model-based reinforcement learning is the Cross-Entropy Method (CEM), which is a zero-order optimization scheme to compute good action sequences. We have improved this method by replacing the uncorrelated sampling of actions with a temporally-correlated sampling (colored noise). As a result, we were able to reduce the computational cost of CEM by a factor of 3-22 while yielding a performance increase of up to 10 times in a variety of challenging robotic tasks.</p>
 
@@ -506,9 +508,14 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <p>The next step in our aim to run these algorithms on a real robot is to make them risk-aware. We extend the learned dynamics models with the ability to estimate their prediction uncertainty. In fact, the models distinguish between uncertainty due to lack of data and inherent unpredictability (noise). We demonstrate on several continuous control tasks how to obtain active learning and risk-averse planning to avoid dangerous situations. This is an important step towards safe reinforcement learning on real hardware.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/icem/" aria-label="iCEM" class="card-image">
     <img src="/images/projects/icem/teaser.webp" alt="iCEM" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -536,6 +543,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/policy-extraction/" aria-label="Policy Extraction" class="card-image">
     <img src="/images/projects/policy-extraction/teaser.webp" alt="Policy Extraction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -563,6 +572,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/risk-averse-planning/" aria-label="Risk-Averse Planning" class="card-image">
     <img src="/images/projects/risk-averse-planning/teaser.webp" alt="Risk-Averse Planning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -589,6 +600,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -604,17 +627,20 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="model-free-rl">Model-free Reinforcement Learning</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/model-free-rl.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>In several research projects, we investigate data-driven approaches to the control of robotic systems. By combining optimization and reinforcement learning, intrinsic motivation, and hierarchical planning, we are tackling various challenges arising in robotic systems.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/model-free-rl.webp" alt="Model-free Reinforcement Learning" loading="lazy">
+  
+  <p>In several research projects, we investigate data-driven approaches to the control of robotic systems. By combining optimization and reinforcement learning, intrinsic motivation, and hierarchical planning, we are tackling various challenges arising in robotic systems.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/causal-reasoning-rl/" aria-label="Causal Reasoning in RL" class="card-image">
     <img src="" alt="Causal Reasoning in RL" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -640,6 +666,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/cwyc/" aria-label="Intrinsically Motivated Hierarchical Learner" class="card-image">
     <img src="/images/projects/cwyc/teaser.webp" alt="Intrinsically Motivated Hierarchical Learner" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -667,6 +695,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/object-centric-rl/" aria-label="Object-centric Self-supervised Reinforcement Learning" class="card-image">
     <img src="/images/projects/object-centric-rl/teaser.webp" alt="Object-centric Self-supervised Reinforcement Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -691,6 +721,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -706,13 +748,11 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="intrinsically-motivated-learning">Intrinsically Motivated Learning</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/intrinsically-motivated-learning.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>Similar to how children perform curious free play, we want to develop reinforcement learning agents that can efficiently and autonomously explore their environment without relying on manually designed tasks and extrinsic rewards.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/intrinsically-motivated-learning.webp" alt="Intrinsically Motivated Learning" loading="lazy">
+  
+  <p>Similar to how children perform curious free play, we want to develop reinforcement learning agents that can efficiently and autonomously explore their environment without relying on manually designed tasks and extrinsic rewards.</p>
 
 <p>The goal of intrinsically-motivated reinforcement learning (RL) is for agents to explore environments efficiently, similar to the curious play of children. We study intrinsic motivation to maximize future task capabilities. Initially, we focus on learning progress and surprise as motivators. We also explore the causal influence of a robot as a driver for exploration. We investigate intrinsic reward signals, inductive biases, and learning frameworks to optimize exploration. Recently, we consider predicted information gain as an internal drive to improve exploration efficiency and to learn capable world models. We find that structured world models allow for relational inductive biases that are suitable for tasks with many objects. Combined with our planning method, we obtain a task-agnostic free-play behavior that explores what can be done in the environment. Using the online-planning method, a robotic arm can then perform tasks such as block stacking without further training, so we achieved zero-shot task generalization.</p>
 
@@ -720,9 +760,14 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <p>We further investigate how meaningful behaviors can emerge. Foundation models are a great source of high-level knowledge. We propose SEmaNtically Sensible ExploratIon (SENSEI), a framework to equip model-based RL agents with intrinsic motivation from vision language models for semantically meaningful behavior. We observe more directed exploration towards “reasonable” behavior during free-play that translates into better world-models and improved downstream performance.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/cee-us/" aria-label="Curious Exploration via Structured World Models" class="card-image">
     <img src="/images/projects/cee-us/teaser.webp" alt="Curious Exploration via Structured World Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -750,6 +795,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/regularity-free-play/" aria-label="Regularity as Intrinsic Reward for Free Play" class="card-image">
     <img src="/images/projects/regularity-free-play/teaser.webp" alt="Regularity as Intrinsic Reward for Free Play" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -777,6 +824,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/sensei/" aria-label="SENSEI: Semantic Exploration Guided by Foundation Models" class="card-image">
     <img src="/images/projects/sensei/teaser.webp" alt="SENSEI: Semantic Exploration Guided by Foundation Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -803,6 +852,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -818,21 +879,24 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="rl-diverse-solutions">Reinforcement Learning for Diverse Solutions</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/rl-diverse-solutions.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>Learning diverse and useful skills is one of the major challenges in robotics. Imitation learning from state-only demonstrations is a promising approach to capture preferences and to easily specify tasks. We first study how to obtain agile behavior from only partial demonstrations. We develop a Wasserstein discrimination method to compute the reward. This paper was one of the three best paper finalists at CoRL 2022.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/rl-diverse-solutions.webp" alt="Reinforcement Learning for Diverse Solutions" loading="lazy">
+  
+  <p>Learning diverse and useful skills is one of the major challenges in robotics. Imitation learning from state-only demonstrations is a promising approach to capture preferences and to easily specify tasks. We first study how to obtain agile behavior from only partial demonstrations. We develop a Wasserstein discrimination method to compute the reward. This paper was one of the three best paper finalists at CoRL 2022.</p>
 
 <p>To obtain diverse behaviors online, we developed an algorithm that learns versatile and controllable skills based on mutual information and information gain as diversity objective. Similar to our earlier work, it combines a GAIL-like imitation reward with task-specific rewards. The subsequent work enhances diversity using a physics-inspired Van der Waals (VdW) force objective and encodes utilities as multiple constraints.</p>
 
 <p>We then studied the offline setting, i.e., when only data from previous interactions are available and no further environmental interaction is possible. We propose the first principled offline method for maximizing skill diversity under imitation constraints. The method requires access to an explorative dataset of the environment and a few demonstrations of solving a task. Here, we focus on the challenging and practically relevant setting where the demonstrations are provided only in terms of visited states, i.e., without actions. To generate diversity, based on an information-theoretic objective, the method trains a skill discriminator. The follow-up work eliminates the need to learn a skill discriminator by providing an offline estimator of the VdW distance. We also use Functional Reward Encoding to better handle non-stationary rewards, allowing for stable, efficient training and zero-shot recall of all skills encountered during training.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/agile-skills-wasabi/" aria-label="Learning Agile Skills via Adversarial Imitation of Rough Partial Demonstrations" class="card-image">
     <img src="/images/projects/agile-skills-wasabi/teaser.webp" alt="Learning Agile Skills via Adversarial Imitation of Rough Partial Demonstrations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -858,6 +922,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/dominic/" aria-label="Learning Diverse Skills for Local Navigation" class="card-image">
     <img src="/images/projects/dominic/teaser.webp" alt="Learning Diverse Skills for Local Navigation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -885,6 +951,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/offline-diversity-imitation/" aria-label="Offline Diversity Under Imitation Constraints" class="card-image">
     <img src="/images/projects/offline-diversity-imitation/teaser.webp" alt="Offline Diversity Under Imitation Constraints" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -909,6 +977,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -924,13 +1004,11 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="learning-with-muscles">Learning with Muscles</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/learning-with-muscles.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>Biological systems rely on muscles for actuation. Do muscles offer advantages over electric motors when viewed through the lens of learning and closed-loop control of behavior? We explored this question and found that muscles can enhance learning speed and robustness. This research highlighted the significant potential of leveraging muscle actuator morphology for natural and robust motion, so far only validated in simulation.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/learning-with-muscles.webp" alt="Learning with Muscles" loading="lazy">
+  
+  <p>Biological systems rely on muscles for actuation. Do muscles offer advantages over electric motors when viewed through the lens of learning and closed-loop control of behavior? We explored this question and found that muscles can enhance learning speed and robustness. This research highlighted the significant potential of leveraging muscle actuator morphology for natural and robust motion, so far only validated in simulation.</p>
 
 <p>How can these findings be applied to real robots? Currently, physical muscles are not mature or easy to integrate into robotic systems. In this study, we simulated muscle actuator properties in real time using affordable modern electric motors, allowing us to emulate a simplified muscle model on a real robot controlled by a learned policy. Our results suggest that artificial muscles could serve as highly advantageous actuators for future generations of robust legged robots. We continue to investigate which muscle properties are most critical for improving learning speed and behavioral robustness.</p>
 
@@ -938,9 +1016,14 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <p>Developing exploration methods and reinforcement learning (RL) algorithms capable of scaling to simulated systems with many muscles was a major challenge we addressed. Our method was first applied to an ostrich and a simple humanoid model. The effort paid off, as we can now achieve human-like walking in several high-dimensional muscle-driven models using only generic reward terms. This paves the way for the analysis of muscle patterns in patients with deficits and for the joint optimization of assistive devices such as exoskeletons.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/dep-rl/" aria-label="Scaling RL to Large Musculoskeletal Systems" class="card-image">
     <img src="/images/projects/dep-rl/teaser.webp" alt="Scaling RL to Large Musculoskeletal Systems" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -968,6 +1051,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/muscles-learning-behavior/" aria-label="The Effect of Muscles in Learning Behavior" class="card-image">
     <img src="/images/projects/muscles-learning-behavior/teaser.webp" alt="The Effect of Muscles in Learning Behavior" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -993,6 +1078,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/natural-robust-walking/" aria-label="Natural and Robust Walking from Generic Rewards" class="card-image">
     <img src="/images/projects/natural-robust-walking/teaser.webp" alt="Natural and Robust Walking from Generic Rewards" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1017,6 +1104,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -1032,17 +1131,20 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="deep-learning">Deep Learning</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/deep-learning.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>Deep learning is the tool for our research to obtain learned representations, fit functions such as policies or value functions and learn internal models. Along the way of using deep learning techniques for our core focus of autonomous learning we frequently need to develop new methods. Quite often, we stumble upon unsolved or puzzling problems in the techniques themselves, some of which we are solving, see our projects below. In general, we are particularly interested in techniques for representation learning, internal model learning and continual learning.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/deep-learning.webp" alt="Deep Learning" loading="lazy">
+  
+  <p>Deep learning is the tool for our research to obtain learned representations, fit functions such as policies or value functions and learn internal models. Along the way of using deep learning techniques for our core focus of autonomous learning we frequently need to develop new methods. Quite often, we stumble upon unsolved or puzzling problems in the techniques themselves, some of which we are solving, see our projects below. In general, we are particularly interested in techniques for representation learning, internal model learning and continual learning.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/beta-nll/" aria-label="Probabilistic Neural Networks" class="card-image">
     <img src="/images/projects/beta-nll/teaser.webp" alt="Probabilistic Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1070,6 +1172,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/representation-learning/" aria-label="Representation Learning" class="card-image">
     <img src="/images/projects/representation-learning/teaser.webp" alt="Representation Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1094,6 +1198,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -1109,13 +1225,11 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="combinatorial-optimization">Combinatorial Optimization</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/combinatorial-optimization.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>Deep learning has shown remarkable success in solving problems from high-dimensional raw input, such as image recognition or speech-to-text translation. However, deep learning is not particularly good when it comes to problems with a combinatorial nature, such as solving a puzzle, finding the shortest path or matching two sets of items. For each of these problems, computer scientists have developed highly optimized algorithms with correspondingly fast implementations in the field of combinatorial optimization. These methods require a perfect input representation and cannot be used on raw inputs as such.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/combinatorial-optimization.webp" alt="Combinatorial Optimization" loading="lazy">
+  
+  <p>Deep learning has shown remarkable success in solving problems from high-dimensional raw input, such as image recognition or speech-to-text translation. However, deep learning is not particularly good when it comes to problems with a combinatorial nature, such as solving a puzzle, finding the shortest path or matching two sets of items. For each of these problems, computer scientists have developed highly optimized algorithms with correspondingly fast implementations in the field of combinatorial optimization. These methods require a perfect input representation and cannot be used on raw inputs as such.</p>
 
 <p>In this work, we bring deep learning and combinatorial optimization together. Ideally, we would like to have the best of both worlds: having rich feature representations through deep neural networks and efficient algorithm implementations that enable combinatorial generalization. We have developed a method with which such algorithms can indeed be used as building blocks in deep neural networks. The original implementations do not need to be known or modified. Instead, it is enough to invoke them one time during the gradient computation on a modified input to obtain an informative gradient.</p>
 
@@ -1125,9 +1239,14 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <p>Recently, we conceptually enhanced our method with the ability to learn the type of combinatorial algorithm that should be solved. This is achieved by learning the constraints of an integer linear program.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/comboptnet/" aria-label="CombOptNet" class="card-image">
     <img src="/images/projects/comboptnet/teaser.webp" alt="CombOptNet" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1153,6 +1272,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/deep-graph-matching/" aria-label="Deep Graph Matching" class="card-image">
     <img src="/images/projects/deep-graph-matching/teaser.webp" alt="Deep Graph Matching" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1178,6 +1299,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/rank-based-metrics/" aria-label="Optimizing Rank-based Metrics" class="card-image">
     <img src="/images/projects/rank-based-metrics/teaser.webp" alt="Optimizing Rank-based Metrics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1204,6 +1327,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -1219,17 +1354,20 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="haptic-sensing">Haptic Sensing</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/haptic-sensing.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>The rapid evolution of robotic technologies informs practical benefits in various physical application areas. In complex, changing, and especially human-involved scenarios, a robot must be well-equipped to perceive the interactions between its own body and other things. Due to the visual occlusion and the small scale of the deformations during interactions, robots need touch-sensitive skin in addition to well-developed vision feedback. In this research field, we explore creating durable and robust haptic sensors to meet various application requirements and design machine-learning algorithms to enhance the data processing flow.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/haptic-sensing.webp" alt="Haptic Sensing" loading="lazy">
+  
+  <p>The rapid evolution of robotic technologies informs practical benefits in various physical application areas. In complex, changing, and especially human-involved scenarios, a robot must be well-equipped to perceive the interactions between its own body and other things. Due to the visual occlusion and the small scale of the deformations during interactions, robots need touch-sensitive skin in addition to well-developed vision feedback. In this research field, we explore creating durable and robust haptic sensors to meet various application requirements and design machine-learning algorithms to enhance the data processing flow.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/insight-haptic-sensor/" aria-label="Insight: a Haptic Sensor Powered by Vision and Machine Learning" class="card-image">
     <img src="/images/projects/insight-haptic-sensor/teaser.webp" alt="Insight: a Haptic Sensor Powered by Vision and Machine Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1255,6 +1393,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/super-resolution-haptics/" aria-label="Super-resolution Sensing for Haptics" class="card-image">
     <img src="/images/projects/super-resolution-haptics/teaser.webp" alt="Super-resolution Sensing for Haptics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1279,6 +1419,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -1294,17 +1446,20 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="ml-for-science">ML for Science</h2>
 
-<div class="feature">
-  <a class="feature-image" aria-label="feature link">
-    <img src="/images/projects/areas/ml-for-science.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    <p>In various collaborations, we use machine learning methods in other scientific domains to advance our understanding and gain new insights. One of our own machine learning methods, called the equation learner, is particularly suitable for applications in the sciences, as it attempts to find very concise analytical equations for data.</p>
+<div class="area-intro">
+  
+    <img class="area-image" src="/images/projects/areas/ml-for-science.webp" alt="ML for Science" loading="lazy">
+  
+  <p>In various collaborations, we use machine learning methods in other scientific domains to advance our understanding and gain new insights. One of our own machine learning methods, called the equation learner, is particularly suitable for applications in the sciences, as it attempts to find very concise analytical equations for data.</p>
 
-  </div>
 </div>
 
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/eql-extrapolation-control/" aria-label="Equation Learner for Extrapolation and Control" class="card-image">
     <img src="/images/projects/eql-extrapolation-control/teaser.webp" alt="Equation Learner for Extrapolation and Control" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1330,6 +1485,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/eql-statistical-physics/" aria-label="Equation Learning for Statistical Physics" class="card-image">
     <img src="/images/projects/eql-statistical-physics/teaser.webp" alt="Equation Learning for Statistical Physics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1355,6 +1512,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/fmri-brain-activity/" aria-label="Predicting Brain Activity fMRI" class="card-image">
     <img src="/images/projects/fmri-brain-activity/teaser.webp" alt="Predicting Brain Activity fMRI" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1380,6 +1539,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/quantum-systems/" aria-label="Machine Learning for Understanding Quantum Systems" class="card-image">
     <img src="/images/projects/quantum-systems/teaser.webp" alt="Machine Learning for Understanding Quantum Systems" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1405,6 +1566,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/symbolic-regression/" aria-label="Symbolic Regression and Equation Learning" class="card-image">
     <img src="/images/projects/symbolic-regression/teaser.webp" alt="Symbolic Regression and Equation Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1429,6 +1592,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
     
   </div>
 </div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
+</div>
   </section>
 
   
@@ -1444,8 +1619,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
 <h2 id="previous">Previous Projects</h2>
 
-<p>Projects that we have worked on in the past.</p>
+<div class="area-intro">
+  
+  <p>Projects that we have worked on in the past.</p>
 
+</div>
+
+<div class="slider" data-style="cards" data-interval="5000">
+  <div class="slider-track">
+    
+      
+  
+     
 <div class="card" data-style="">
   <a href="/research/l4-stepsize-adaptation/" aria-label="Stepsize Adaptation for Stochastic Optimization" class="card-image">
     <img src="/images/projects/l4-stepsize-adaptation/teaser.webp" alt="Stepsize Adaptation for Stochastic Optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1473,6 +1658,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/playful-machine/" aria-label="The Playful Machine" class="card-image">
     <img src="/images/projects/playful-machine/teaser.webp" alt="The Playful Machine" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1500,6 +1687,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/self-exploration-of-behavior/" aria-label="Self-exploration of Behavior" class="card-image">
     <img src="/images/projects/self-exploration-of-behavior/teaser.webp" alt="Self-exploration of Behavior" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1525,6 +1714,8 @@ Below are our research areas and projects. All our papers are listed on the <a h
   </div>
 </div>
 
+  
+     
 <div class="card" data-style="">
   <a href="/research/sparse-haptic-sensing/" aria-label="Robust and Affordable Haptic Sensation with Sparse Sensor Configuration" class="card-image">
     <img src="/images/projects/sparse-haptic-sensing/teaser.webp" alt="Robust and Affordable Haptic Sensation with Sparse Sensor Configuration" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1548,6 +1739,18 @@ Below are our research areas and projects. All our papers are listed on the <a h
 
     
   </div>
+</div>
+
+  
+
+    
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    <i class="icon fa-solid fa-chevron-left"></i>
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    <i class="icon fa-solid fa-chevron-right"></i>
+  </button>
 </div>
   </section>
 
