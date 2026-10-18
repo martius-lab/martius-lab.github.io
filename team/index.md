@@ -35,4 +35,8 @@ nav:
 
 ## Alumni
 
-{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="small" %}
+{% assign alumni = site.members | where: "role", "alumni" %}
+{% assign known = alumni | where_exp: "m", "m.left" | sort: "left" | reverse %}
+{% assign unknown = alumni | where_exp: "m", "m.left == nil" %}
+{% for member in known %}{% include portrait.html lookup=member.slug style="small" %}{% endfor %}
+{% for member in unknown %}{% include portrait.html lookup=member.slug style="small" %}{% endfor %}

@@ -1,19 +1,18 @@
 ---
 name: Núria Armengol Urpí
 image: images/team/nuria-armengol-urpi.webp
-role: phd
-description: "PhD Candidate, Max Planck ETH Center for Learning Systems"
-affiliation: ETH Zürich
+role: alumni
+description: PhD (CLS), until 2026
+left: 2026
 aliases:
-  - Núria Armengol Urpí
-  - Nuria Armengol Urpi
-  - N. Armengol Urpí
-  - N. Armengol Urpi
-  - Núria Armengol
-  - N. Armengol
+- Núria Armengol Urpí
+- Nuria Armengol Urpi
+- N. Armengol Urpí
+- N. Armengol Urpi
+- Núria Armengol
+- N. Armengol
 links:
-  email: "nuriaa@ethz.ch"
-office: "Stampfenbachstrasse 109, Zurich, Switzerland"
+  home-page: https://nuria95.github.io/
 ---
 
 ## Research Interests

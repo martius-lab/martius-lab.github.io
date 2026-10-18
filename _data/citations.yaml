@@ -63,7 +63,7 @@
   - Emre Ugur
   - Erhan Oztop
   publisher: The Thirty-ninth Annual Conference on Neural Information Processing Systems
-  date: '2026-01-01'
+  date: '2025-01-01'
   link: https://openreview.net/forum?id=24UJqxw1kv
   type: paper
   plugin: bibtex.py
@@ -82,6 +82,9 @@
   date: '2025-09-01'
   link: https://doi.org/10.1109/Humanoids65713.2025.11203050
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2602.12918
   plugin: bibtex.py
   file: bibtex.yaml
 - id: schumacher2025:NaturalAndRobustWalking
@@ -262,7 +265,11 @@
   - J. Jordan
   publisher: The Thirteenth International Conference on Learning Representations (ICLR)
   date: '2025-04-01'
+  link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/7f64034009f4a5fa417a57e1a987c5cd-Abstract-Conference.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2502.15833
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Bagatella2024:DirectedExplorationLTL
@@ -305,7 +312,13 @@
   - '**G. Martius**'
   publisher: 41st International Conference on Machine Learning (ICML)
   date: '2024-07-01'
+  link: https://proceedings.mlr.press/v235/armengol-urpi-24a.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2405.18917
+  - type: source
+    link: https://github.com/martius-lab/caiac
   projects:
   - causal-reasoning-rl
   plugin: bibtex.py
@@ -320,7 +333,11 @@
   - '**G. Martius**'
   publisher: 41st International Conference on Machine Learning (ICML)
   date: '2024-07-01'
+  link: https://proceedings.mlr.press/v235/geist24a.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2404.11735
   plugin: bibtex.py
   file: bibtex.yaml
 - id: PauMarMus24
@@ -332,7 +349,11 @@
   - V. Musil
   publisher: 41st International Conference on Machine Learning (ICML)
   date: '2024-07-01'
+  link: https://proceedings.mlr.press/v235/paulus24a.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2407.05920
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Ruaudetal24
@@ -345,7 +366,11 @@
   - '**G. Martius**'
   publisher: 41st International Conference on Machine Learning (ICML)
   date: '2024-07-01'
+  link: https://proceedings.mlr.press/v235/ruaud24a.html
   type: paper
+  buttons:
+  - type: website
+    link: https://sites.google.com/view/microbegnn
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Spieleretal24
@@ -359,7 +384,13 @@
   - A. Levina
   publisher: The Twelfth International Conference on Learning Representations (ICLR)
   date: '2024-05-01'
+  link: https://openreview.net/forum?id=vE1e1mLJ0U
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2306.16922
+  - type: source
+    link: https://github.com/AaronSpieler/elmneuron
   plugin: bibtex.py
   file: bibtex.yaml
 - id: khajehabdollahi2024
@@ -405,7 +436,13 @@
   - F. Locatello
   publisher: The Twelfth International Conference on Learning Representations (ICLR)
   date: '2024-05-01'
+  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/956e5427549a82a7472e02adc88360e9-Abstract-Conference.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2311.04056
+  - type: source
+    link: https://github.com/CausalLearningAI/multiview-crl
   plugin: bibtex.py
   file: bibtex.yaml
 - id: jctc_mlpatchy
@@ -438,7 +475,17 @@
   - S. Coros
   publisher: International Conference on Robotics and Automation
   date: '2023-01-01'
+  link: https://ieeexplore.ieee.org/document/10161415
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2303.09628
+  - type: doi
+    link: https://doi.org/10.1109/ICRA48891.2023.10161415
+  - type: source
+    link: https://github.com/nuria95/elf-p
+  - type: website
+    link: https://nuria95.github.io/elf-p/
   plugin: bibtex.py
   file: bibtex.yaml
 - id: kolev2023:OL-adversarial-constraints
@@ -588,7 +635,17 @@
   publisher: Proceedings of the IEEE International Conference on Robotics and Automation
     (ICRA)
   date: '2023-05-01'
+  link: https://arxiv.org/abs/2209.07899
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2209.07899
+  - type: source
+    link: https://github.com/martius-lab/cassi
+  - type: website
+    link: https://sites.google.com/view/icra2023-cassi/home
+  - type: video
+    link: https://youtu.be/SUQ_FoaJgnA
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Seitzer2023BridgingTheGap
@@ -638,9 +695,19 @@
   - F. Grimminger
   - '**G. Martius**'
   publisher: Proceedings of the 6th Conference on Robot Learning (CoRL)
-  date: '2022-12-01'
+  date: '2023-03-01'
+  link: https://proceedings.mlr.press/v205/li23b.html
   type: paper
   image: images/projects/agile-skills-wasabi/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2206.11693
+  - type: source
+    link: https://github.com/martius-lab/wasabi
+  - type: website
+    link: https://sites.google.com/view/corl2022-wasabi/home
+  - type: video
+    link: https://youtube.com/playlist?list=PLhqs0Oka9VRFrKb9djmEBU-NyewCKHfGP
   projects:
   - agile-skills-wasabi
   plugin: bibtex.py
@@ -706,7 +773,15 @@
   - M. Besserve
   publisher: Advances in Neural Information Processing Systems 35 (NeurIPS 2022)
   date: '2022-12-01'
+  link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/4eb91efe090f72f7cf42c69aab03fe85-Abstract.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2206.02416
+  - type: source
+    link: https://github.com/rpatrik96/ima-vae
+  - type: video
+    link: https://slideslive.com/38990157/embrace-the-gap-vaes-perform-independent-mechanism-analysis
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Andrussow22-IROSWS-Manipulation
@@ -856,9 +931,17 @@
   - Cristina Pinneri
   - '**Georg Martius**'
   publisher: Conference on Robot Learning
-  date: '2021-11-01'
+  date: '2022-01-01'
+  link: https://proceedings.mlr.press/v164/vlastelica22a.html
   type: paper
   image: images/projects/risk-averse-planning/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2309.05582
+  - type: source
+    link: https://github.com/martius-lab/RAZER
+  - type: website
+    link: https://martius-lab.github.io/RAZER/
   projects:
   - risk-averse-planning
   plugin: bibtex.py
@@ -929,8 +1012,12 @@
   - Fanny Yang
   publisher: Conference on Robot Learning
   date: '2021-11-01'
+  link: https://proceedings.mlr.press/v164/zadaianchuk22a.html
   type: paper
   image: images/projects/object-centric-rl/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2109.04150
   projects:
   - object-centric-rl
   plugin: bibtex.py
@@ -1002,8 +1089,12 @@
   publisher: Proceedings of the 2021 International Conference on Machine Learning
     (ICML)
   date: '2021-07-01'
+  link: https://proceedings.mlr.press/v139/zietlow21a.html
   type: paper
   image: images/projects/representation-learning/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2102.06822
   projects:
   - representation-learning
   plugin: bibtex.py
@@ -1038,6 +1129,7 @@
   - '**Georg Martius**'
   publisher: International Conference on Learning Representations
   date: '2021-01-01'
+  link: https://openreview.net/forum?id=Nc3TJqbcl3
   type: paper
   image: images/projects/policy-extraction/teaser.webp
   projects:
@@ -1052,8 +1144,18 @@
   - '**Georg Martius**'
   publisher: International Conference on Learning Representations
   date: '2021-01-01'
+  link: https://openreview.net/forum?id=xppLmXCbOw1
   type: paper
   image: images/projects/object-centric-rl/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2011.14381
+  - type: source
+    link: https://github.com/martius-lab/SMORL
+  - type: website
+    link: https://martius-lab.github.io/SMORL
+  - type: video
+    link: https://iclr.cc/virtual/2021/spotlight/3422
   projects:
   - object-centric-rl
   plugin: bibtex.py
@@ -1067,7 +1169,11 @@
   publisher: Proceedings of the 2021 International Conference on Machine Learning
     (ICML)
   date: '2021-07-01'
+  link: https://proceedings.mlr.press/v139/vlastelica21a.html
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2102.07456
   plugin: bibtex.py
   file: bibtex.yaml
 - id: kloss_auro_2020
@@ -1095,8 +1201,14 @@
   - '**Georg Martius**'
   publisher: Scientific Reports
   date: '2021-01-01'
+  link: https://www.nature.com/articles/s41598-021-82681-8
   type: journal
   image: images/projects/fmri-brain-activity/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1038/s41598-021-82681-8
+  - type: source
+    link: https://gitlab.com/elacosse/cf-benchmark-dev
   projects:
   - fmri-brain-activity
   plugin: bibtex.py
@@ -1152,12 +1264,14 @@
   - '**Georg Martius**'
   publisher: Conference on Computer Vision and Pattern Recognition
   date: '2020-01-01'
-  link: https://arxiv.org/abs/1912.03500
+  link: https://openaccess.thecvf.com/content_CVPR_2020/html/Rolinek_Optimizing_Rank-Based_Metrics_With_Blackbox_Differentiation_CVPR_2020_paper.html
   type: book
   image: images/projects/rank-based-metrics/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1912.03500
+  - type: doi
+    link: https://doi.org/10.1109/CVPR42600.2020.00764
   - type: source
     link: https://github.com/martius-lab/blackbox-backprop
   projects:
@@ -1186,7 +1300,13 @@
   - '**Georg Martius**'
   publisher: 21rst IFAC World Congress
   date: '2020-07-01'
+  link: https://www.sciencedirect.com/science/article/pii/S2405896320315950
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1911.09214
+  - type: doi
+    link: https://doi.org/10.1016/j.ifacol.2020.12.1200
   plugin: bibtex.py
   file: bibtex.yaml
 - id: LinMartiusOettel2020:FEQL-DFTML
@@ -1219,7 +1339,11 @@
   publisher: Proceedings 2019 IEEE Symposium Series on Computational Intelligence
     (SSCI)
   date: '2019-12-01'
+  link: https://doi.org/10.1109/SSCI44817.2019.9002779
   type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2105.08635
   plugin: bibtex.py
   file: bibtex.yaml
 - id: AgudeloEspanaetal20
@@ -1241,7 +1365,13 @@
   - "M. W\xFCthrich"
   publisher: IEEE International Conference on Robotics and Automation (ICRA)
   date: '2020-01-01'
+  link: https://doi.org/10.1109/ICRA40945.2020.9197392
   type: paper
+  buttons:
+  - type: pdf
+    link: https://www.is.mpg.de/uploads_file/attachment/attachment/589/ICRA20_1157_FI.pdf
+  - type: source
+    link: https://github.com/rr-learning/transferable_dynamics_dataset
   plugin: bibtex.py
   file: bibtex.yaml
 - id: SunMartius2019:ML4Haptics
@@ -1315,8 +1445,12 @@
   - '**Georg Martius**'
   publisher: Conference on Computer Vision and Pattern Recognition (CVPR'19)
   date: '2019-06-01'
+  link: https://openaccess.thecvf.com/content_CVPR_2019/html/Rolinek_Variational_Autoencoders_Pursue_PCA_Directions_by_Accident_CVPR_2019_paper.html
   type: paper
   image: images/projects/representation-learning/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1812.06775
   projects:
   - representation-learning
   plugin: bibtex.py
@@ -1348,7 +1482,13 @@
   publisher: '22nd ACM Intl. Conf. on Hybrid Systems: Computation and Control (HSCC
     2019)'
   date: '2019-01-01'
+  link: https://dl.acm.org/doi/10.1145/3302504.3311813
   type: paper
+  buttons:
+  - type: pdf
+    link: https://is.mpg.de/uploads/publication_attachment/attachment/657/bogomolovEtal2019_falsification_personal_copy.pdf
+  - type: doi
+    link: https://doi.org/10.1145/3302504.3311813
   plugin: bibtex.py
   file: bibtex.yaml
 - id: SunMartius2018:SingleTouchSensation

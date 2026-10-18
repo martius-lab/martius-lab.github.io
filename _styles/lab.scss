@@ -1,0 +1,43 @@
+---
+---
+
+// full logo as home page headline
+.home-logo img {
+  width: 600px;
+  max-width: 100%;
+}
+
+// research area intro, text flows around image
+.area-intro::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.area-image {
+  float: left;
+  width: 40%;
+  max-width: 420px;
+  margin: 5px 30px 15px 0;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 600px) {
+  .area-image {
+    float: none;
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+}
+
+// justified text looks patchy in narrow cards
+.card-text p {
+  text-align: center;
+}
+
+// show whole figure in card images (project teasers are often diagrams)
+.card-image img {
+  object-fit: contain;
+  background: #fff;
+}

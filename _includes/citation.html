@@ -8,9 +8,30 @@
   {% assign citation = include %}
 {% endif %}
 
+{% comment %}
+  image: bib "image" field, else images/papers/<bib key>.<ext>, else teaser of
+  the paper's first project. resolved here (not in the cite process) so pull
+  request previews see images added in the pull request.
+{% endcomment %}
+{% assign image = citation.image %}
+{% unless image %}
+  {% assign key = citation.id | regex_replace: "[^a-zA-Z0-9_-]", "-" %}
+  {% assign extensions = "webp,png,jpg,jpeg,gif,svg" | split: "," %}
+  {% for extension in extensions %}
+    {% unless image %}
+      {% capture path %}images/papers/{{ key }}.{{ extension }}{% endcapture %}
+      {% assign image = path | file_exists %}
+    {% endunless %}
+  {% endfor %}
+{% endunless %}
+{% unless image %}
+  {% assign project = site.projects | where: "slug", citation.projects.first | first %}
+  {% assign image = project.image %}
+{% endunless %}
+
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" and citation.image %}
+    {% if include.style == "rich" and image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -19,7 +40,7 @@
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}

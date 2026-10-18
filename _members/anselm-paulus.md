@@ -1,14 +1,16 @@
 ---
 name: Anselm Paulus
 image: images/team/anselm-paulus.webp
-role: phd
+role: alumni
+description: PhD, until 2026
+affiliation: 'now: Exponential Security Labs'
+left: 2026
 aliases:
-  - Anselm Paulus
-  - A. Paulus
+- Anselm Paulus
+- A. Paulus
 links:
-  email: "anselm.paulus@uni-tuebingen.de"
   google-scholar: njZL5CQAAAAJ
-office: "00-30/A24, Maria-von-Linden-Straße 6, 72076 Tübingen"
+  home-page: https://a-paulus.github.io/
 ---
 
 ## Research Interests

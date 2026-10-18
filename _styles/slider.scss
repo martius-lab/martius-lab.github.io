@@ -10,6 +10,7 @@
 }
 
 .slider-track {
+  position: relative;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -67,4 +68,39 @@
 
 .slider-next {
   right: 10px;
+}
+
+.slider[data-static] .slider-prev,
+.slider[data-static] .slider-next {
+  display: none;
+}
+
+// row of cards
+.slider[data-style="cards"] {
+  margin: 0;
+  overflow: visible;
+  box-shadow: none;
+}
+
+.slider[data-style="cards"] .slider-track {
+  // room for card shadows
+  padding: 10px 0;
+}
+
+.slider[data-style="cards"][data-static] .slider-track {
+  justify-content: center;
+}
+
+.slider[data-style="cards"] .card {
+  flex: 0 0 300px;
+  margin: 10px 20px 10px 0;
+  scroll-snap-align: start;
+}
+
+.slider[data-style="cards"] .slider-prev {
+  left: -20px;
+}
+
+.slider[data-style="cards"] .slider-next {
+  right: -20px;
 }

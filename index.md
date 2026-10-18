@@ -1,7 +1,9 @@
 ---
 ---
 
-# Autonomous Learning Group
+<h1 class="home-logo">
+  <img src="{{ "images/logo-full.png" | relative_url }}" alt="Autonomous Learning Group">
+</h1>
 
 **Distributed Intelligence / Autonomous Learning**, Department of Computer Science, University of Tübingen
 
@@ -122,4 +124,6 @@ PhD students, postdocs, and researchers in Tübingen and Zürich.
 
 ## Our Spin-offs
 
-[pi_optimal](https://pi-optimal.com/)
+- [pi_optimal](https://pi-optimal.com/)
+- [Polybot](https://polybot.eu/)
+- [Ontic Labs](https://onticlabs.io/)
