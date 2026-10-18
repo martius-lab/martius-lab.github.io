@@ -1,9 +1,9 @@
 ---
-logo: images/logo-color.png
-logo-badge: true
 ---
 
-# Autonomous Learning Group
+<h1 class="home-logo">
+  <img src="{{ "images/logo-full.png" | relative_url }}" alt="Autonomous Learning Group">
+</h1>
 
 **Distributed Intelligence / Autonomous Learning**, Department of Computer Science, University of Tübingen
 

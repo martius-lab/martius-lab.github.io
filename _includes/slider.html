@@ -1,20 +1,33 @@
-{% assign slides = site.data[include.data] %}
+{% comment %}
+  horizontally scrolling slider that advances automatically
+  data: name of data file with list of { image, caption } (one image per slide)
+  content: html to use as slides instead (e.g. cards), each top-level element is a slide
+  style: "cards" for a row of cards, otherwise full-width images
+{% endcomment %}
 
-<div class="slider" data-interval="{{ include.interval | default: 6000 }}">
+<div
+  class="slider"
+  data-style="{{ include.style }}"
+  data-interval="{{ include.interval | default: 6000 }}"
+>
   <div class="slider-track">
-    {% for slide in slides %}
-      <figure class="slider-slide">
-        <img
-          src="{{ slide.image | relative_url | uri_escape }}"
-          alt="{{ slide.caption | default: "slide" | regex_strip }}"
-          {% unless forloop.first %}loading="lazy"{% endunless %}
-          {% include fallback.html %}
-        >
-        {% if slide.caption %}
-          <figcaption class="slider-caption">{{ slide.caption }}</figcaption>
-        {% endif %}
-      </figure>
-    {% endfor %}
+    {% if include.content %}
+      {{ include.content }}
+    {% else %}
+      {% for slide in site.data[include.data] %}
+        <figure class="slider-slide">
+          <img
+            src="{{ slide.image | relative_url | uri_escape }}"
+            alt="{{ slide.caption | default: "slide" | regex_strip }}"
+            {% unless forloop.first %}loading="lazy"{% endunless %}
+            {% include fallback.html %}
+          >
+          {% if slide.caption %}
+            <figcaption class="slider-caption">{{ slide.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    {% endif %}
   </div>
   <button class="slider-prev" aria-label="previous slide">
     {% include icon.html icon="fa-solid fa-chevron-left" %}

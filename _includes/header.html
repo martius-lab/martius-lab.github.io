@@ -5,11 +5,6 @@
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
-{% comment %} pages can override the logo, e.g. logo: images/logo-color.png {% endcomment %}
-{% if page.logo %}
-  {% assign svg = nil %}
-  {% assign logo = page.logo %}
-{% endif %}
 
 <header
   class="background"
@@ -23,7 +18,7 @@
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
-      <span class="logo" {% if page.logo-badge %}data-badge{% endif %}>
+      <span class="logo">
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
