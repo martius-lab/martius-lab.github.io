@@ -14,7 +14,6 @@
   date: '2026-01-01'
   link: https://arxiv.org/abs/2602.04599
   type: preprint
-  image: images/papers/MilosevicFranz2026-SDH.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2602.04599
@@ -54,7 +53,6 @@
   date: '2026-01-01'
   link: https://openreview.net/forum?id=2EGtfFwxx8
   type: paper
-  image: images/papers/paulus2026-DiffMJX.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Ada2026:FORL
@@ -68,7 +66,6 @@
   date: '2026-01-01'
   link: https://openreview.net/forum?id=24UJqxw1kv
   type: paper
-  image: images/papers/Ada2026-FORL.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Andrussow25-H-Minsound
@@ -85,7 +82,6 @@
   date: '2025-09-01'
   link: https://doi.org/10.1109/Humanoids65713.2025.11203050
   type: paper
-  image: images/papers/Andrussow25-H-Minsound.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: schumacher2025:NaturalAndRobustWalking
@@ -103,7 +99,6 @@
   date: '2025-04-01'
   link: https://www.cell.com/iscience/fulltext/S2589-0042(25)00464-X
   type: journal
-  image: images/projects/natural-robust-walking/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2309.02976
@@ -126,7 +121,6 @@
   date: '2025-01-01'
   link: https://doi.org/10.1038/s41467-025-63230-7
   type: journal
-  image: images/projects/super-resolution-haptics/teaser.webp
   projects:
   - super-resolution-haptics
   plugin: bibtex.py
@@ -140,7 +134,6 @@
   date: '2025-01-01'
   link: https://rlj.cs.umass.edu/2025/papers/Paper136.html
   type: journal
-  image: images/papers/guertler2025-SPATES.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: urpi2025:epistemicallyFB
@@ -154,7 +147,6 @@
   date: '2025-01-01'
   link: https://rlj.cs.umass.edu/2025/papers/Paper241.html
   type: journal
-  image: images/papers/urpi2025-epistemicallyFB.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: chen2025:offlineonlinemodel
@@ -170,7 +162,6 @@
   date: '2025-01-01'
   link: https://rlj.cs.umass.edu/2025/papers/Paper42.html
   type: journal
-  image: images/papers/chen2025-offlineonlinemodel.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Manasyan2025:SlotContrast
@@ -186,7 +177,6 @@
   date: '2025-06-01'
   link: https://openaccess.thecvf.com/content/CVPR2025/html/Manasyan_Temporally_Consistent_Object-Centric_Learning_by_Contrasting_Slots_CVPR_2025_paper.html
   type: paper
-  image: images/papers/Manasyan2025-SlotContrast.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Didolkaretal25
@@ -203,7 +193,6 @@
   date: '2025-04-01'
   link: https://openreview.net/forum?id=bSq0XGS3kW
   type: paper
-  image: images/papers/Didolkaretal25.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: rupf2025:ZILOT
@@ -218,7 +207,6 @@
   date: '2025-10-01'
   link: https://arxiv.org/abs/2410.08751
   type: paper
-  image: images/papers/rupf2025-ZILOT.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2410.08751
@@ -235,7 +223,6 @@
   date: '2025-10-01'
   link: https://arxiv.org/abs/2410.05026
   type: paper
-  image: images/papers/Bagatella2025-Fine-Tuning.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2410.05026
@@ -254,7 +241,6 @@
   date: '2025-07-01'
   link: https://arxiv.org/abs/2503.01584
   type: paper
-  image: images/projects/sensei/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2503.01584
@@ -275,7 +261,6 @@
   date: '2025-04-01'
   link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/7f64034009f4a5fa417a57e1a987c5cd-Abstract-Conference.html
   type: paper
-  image: images/papers/Canevaroetal25.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2502.15833
@@ -291,7 +276,6 @@
   date: '2024-08-01'
   link: https://arxiv.org/abs/2408.09495
   type: preprint
-  image: images/papers/Bagatella2024-DirectedExplorationLTL.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2408.09495
@@ -311,7 +295,6 @@
   date: '2024-08-01'
   link: https://ieeexplore.ieee.org/document/10669238
   type: journal
-  image: images/papers/JiaquiJonas2024.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: UrpBagVlaMar24
@@ -325,7 +308,6 @@
   date: '2024-07-01'
   link: https://proceedings.mlr.press/v235/armengol-urpi-24a.html
   type: paper
-  image: images/papers/UrpBagVlaMar24.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2405.18917
@@ -347,7 +329,6 @@
   date: '2024-07-01'
   link: https://proceedings.mlr.press/v235/geist24a.html
   type: paper
-  image: images/papers/Geistetal24.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2404.11735
@@ -364,7 +345,6 @@
   date: '2024-07-01'
   link: https://proceedings.mlr.press/v235/paulus24a.html
   type: paper
-  image: images/papers/PauMarMus24.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2407.05920
@@ -382,7 +362,6 @@
   date: '2024-07-01'
   link: https://proceedings.mlr.press/v235/ruaud24a.html
   type: paper
-  image: images/papers/Ruaudetal24.webp
   buttons:
   - type: website
     link: https://sites.google.com/view/microbegnn
@@ -401,7 +380,6 @@
   date: '2024-05-01'
   link: https://openreview.net/forum?id=vE1e1mLJ0U
   type: paper
-  image: images/papers/Spieleretal24.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2306.16922
@@ -423,7 +401,6 @@
   date: '2024-05-01'
   link: https://openreview.net/forum?id=xwKt6bUkXj
   type: paper
-  image: images/papers/khajehabdollahi2024.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Gumbsch2024:ThickWorldModels
@@ -438,7 +415,6 @@
   date: '2024-05-01'
   link: https://openreview.net/forum?id=TjCDNssXKU
   type: paper
-  image: images/papers/Gumbsch2024-ThickWorldModels.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Yaoetal24
@@ -456,7 +432,6 @@
   date: '2024-05-01'
   link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/956e5427549a82a7472e02adc88360e9-Abstract-Conference.html
   type: paper
-  image: images/papers/Yaoetal24.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2311.04056
@@ -475,7 +450,6 @@
   date: '2024-01-01'
   link: https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c01238
   type: journal
-  image: images/projects/eql-statistical-physics/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/https://doi.org/10.1021/acs.jctc.3c01238
@@ -496,7 +470,6 @@
   date: '2023-01-01'
   link: https://ieeexplore.ieee.org/document/10161415
   type: paper
-  image: images/papers/armengol2023-elfp.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2303.09628
@@ -518,7 +491,6 @@
   date: '2023-12-01'
   link: https://openreview.net/forum?id=N6YNe4KxDc
   type: paper
-  image: images/papers/kolev2023-OL-adversarial-constraints.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Zadaianchuk2023VideoSAUR
@@ -533,7 +505,6 @@
   date: '2023-12-01'
   link: https://openreview.net/forum?id=t1jLRFvBqm
   type: paper
-  image: images/papers/Zadaianchuk2023VideoSAUR.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Sancaktar2023:RAIR
@@ -546,7 +517,6 @@
   date: '2023-12-01'
   link: https://openreview.net/forum?id=BHHrX3CRE1
   type: paper
-  image: images/projects/regularity-free-play/teaser.webp
   projects:
   - regularity-free-play
   plugin: bibtex.py
@@ -559,7 +529,6 @@
   date: '2023-12-01'
   link: https://openreview.net/forum?id=QlbZabgMdK
   type: paper
-  image: images/papers/bagatella2023goal-conditioned.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Andrussow23-AIS-Minsight
@@ -573,7 +542,6 @@
   date: '2023-08-01'
   link: https://doi.org/10.1002/aisy.202300042
   type: journal
-  image: images/projects/insight-haptic-sensor/teaser.webp
   projects:
   - insight-haptic-sensor
   plugin: bibtex.py
@@ -592,7 +560,6 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=JZMR727O29
   type: paper
-  image: images/papers/SahooPaulus2023-Identity.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: schumacher2023:deprl
@@ -609,7 +576,6 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=C-xa_D3oTj6
   type: paper
-  image: images/projects/dep-rl/teaser.webp
   projects:
   - dep-rl
   plugin: bibtex.py
@@ -629,7 +595,6 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=3k5CUGDLNdd
   type: paper
-  image: images/papers/benchmarkingofflinerl.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: EberhardEtal2023:PinkNoise
@@ -645,7 +610,6 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=hQ9V5QN27eS
   type: paper
-  image: images/papers/EberhardEtal2023-PinkNoise.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: li2023cassi
@@ -663,7 +627,6 @@
   date: '2023-05-01'
   link: https://arxiv.org/abs/2209.07899
   type: paper
-  image: images/papers/li2023cassi.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2209.07899
@@ -693,7 +656,6 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=b9tUk-f_aG
   type: paper
-  image: images/papers/Seitzer2023BridgingTheGap.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Lee23-TASE-Map
@@ -711,7 +673,6 @@
   date: '2023-01-01'
   link: https://doi.org/10.1109/TASE.2022.3156184
   type: journal
-  image: images/papers/Lee23-TASE-Map.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: li2022wasabi
@@ -727,7 +688,6 @@
   date: '2022-12-01'
   link: https://proceedings.mlr.press/v205/li23b.html
   type: paper
-  image: images/projects/agile-skills-wasabi/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2206.11693
@@ -755,7 +715,6 @@
   date: '2022-12-01'
   link: https://openreview.net/forum?id=Xo3eOibXCQ8
   type: paper
-  image: images/projects/muscles-learning-behavior/teaser.webp
   projects:
   - muscles-learning-behavior
   plugin: bibtex.py
@@ -771,7 +730,6 @@
   date: '2022-12-01'
   link: https://aligning-robot-human-representations.github.io/docs/camready_11.pdf
   type: preprint
-  image: images/papers/Richardson22-CORLWS-Sequential.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Sancaktaretal2022:CEEUS
@@ -784,7 +742,6 @@
   date: '2022-12-01'
   link: https://openreview.net/forum?id=NnuYZ1el24C
   type: paper
-  image: images/projects/cee-us/teaser.webp
   projects:
   - cee-us
   plugin: bibtex.py
@@ -805,7 +762,6 @@
   date: '2022-12-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/4eb91efe090f72f7cf42c69aab03fe85-Abstract.html
   type: paper
-  image: images/papers/Reizingeretal22.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2206.02416
@@ -827,7 +783,6 @@
   date: '2022-10-01'
   link: https://sites.google.com/view/iros2022ws-lsrobskin/list-of-contributors?authuser=0
   type: preprint
-  image: images/papers/Andrussow22-IROSWS-Manipulation.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: gumbsch2022_hierarchical
@@ -843,7 +798,6 @@
   date: '2022-09-01'
   link: https://arxiv.org/abs/2206.02042
   type: paper
-  image: images/papers/gumbsch2022_hierarchical.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2206.02042
@@ -861,7 +815,6 @@
   date: '2022-04-01'
   link: https://openreview.net/forum?id=aPOpXlnV1T
   type: paper
-  image: images/projects/beta-nll/teaser.webp
   projects:
   - beta-nll
   plugin: bibtex.py
@@ -876,7 +829,6 @@
   date: '2022-02-01'
   link: https://www.science.org/stoken/author-tokens/ST-350/full
   type: journal
-  image: images/projects/super-resolution-haptics/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1126/scirobotics.abm0608
@@ -897,7 +849,6 @@
   date: '2022-01-01'
   link: https://rdcu.be/cFGsE
   type: journal
-  image: images/papers/Eppe2022.webp
   buttons:
   - type: doi
     link: https://doi.org/https://doi.org/10.1038/s42256-021-00433-9
@@ -913,7 +864,6 @@
   date: '2022-02-01'
   link: https://rdcu.be/cHCl9
   type: journal
-  image: images/projects/insight-haptic-sensor/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1038/s42256-021-00439-3
@@ -932,7 +882,6 @@
   date: '2021-01-01'
   link: https://arxiv.org/abs/2105.06331
   type: preprint
-  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2105.06331
@@ -952,7 +901,6 @@
   date: '2022-01-01'
   link: https://doi.org/10.1145/3520304.3533964
   type: paper
-  image: images/projects/symbolic-regression/teaser.webp
   projects:
   - symbolic-regression
   plugin: bibtex.py
@@ -968,7 +916,6 @@
   date: '2021-11-01'
   link: https://proceedings.mlr.press/v164/vlastelica22a.html
   type: paper
-  image: images/projects/risk-averse-planning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2309.05582
@@ -990,7 +937,6 @@
   date: '2021-12-01'
   link: https://proceedings.neurips.cc/paper/2021/file/c1722a7941d61aad6e651a35b65a9c3e-Paper.pdf
   type: paper
-  image: images/papers/Seitzer2021CID.webp
   projects:
   - causal-reasoning-rl
   plugin: bibtex.py
@@ -1005,7 +951,6 @@
   date: '2021-12-01'
   link: https://proceedings.neurips.cc/paper/2021/file/b59c21a078fde074a6750e91ed19fb21-Paper.pdf
   type: paper
-  image: images/papers/GurBucMar21.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: Bagatella2021:PPGS
@@ -1019,7 +964,6 @@
   date: '2021-12-01'
   link: https://github.com/martius-lab/PPGS
   type: paper
-  image: images/papers/Bagatella2021-PPGS.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2110.06149
@@ -1036,7 +980,6 @@
   date: '2021-12-01'
   link: https://arxiv.org/pdf/2110.15949.pdf
   type: paper
-  image: images/papers/Gumbsch2021-GateL0rd.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2110.15949
@@ -1052,7 +995,6 @@
   date: '2021-11-01'
   link: https://proceedings.mlr.press/v164/zadaianchuk22a.html
   type: paper
-  image: images/projects/object-centric-rl/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2109.04150
@@ -1073,7 +1015,6 @@
   date: '2021-07-01'
   link: https://proceedings.mlr.press/v139/paulus21a.html
   type: paper
-  image: images/projects/comboptnet/teaser.webp
   projects:
   - comboptnet
   plugin: bibtex.py
@@ -1091,7 +1032,6 @@
   date: '2021-04-01'
   link: https://link.aps.org/doi/10.1103/PhysRevResearch.3.023084
   type: journal
-  image: images/projects/quantum-systems/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1103/PhysRevResearch.3.023084
@@ -1113,7 +1053,6 @@
   date: '2021-01-01'
   link: https://www.mdpi.com/1424-8220/21/6/2030
   type: journal
-  image: images/papers/Landgraf2021-RLforInspection.webp
   buttons:
   - type: doi
     link: https://doi.org/10.3390/s21062030
@@ -1130,7 +1069,6 @@
   date: '2021-07-01'
   link: https://proceedings.mlr.press/v139/zietlow21a.html
   type: paper
-  image: images/projects/representation-learning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2102.06822
@@ -1151,7 +1089,6 @@
   date: '2021-07-01'
   link: https://arxiv.org/abs/2103.12184
   type: paper
-  image: images/papers/ProsiEtal2021-dynamicalregime.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2103.12184
@@ -1171,7 +1108,6 @@
   date: '2021-01-01'
   link: https://openreview.net/forum?id=Nc3TJqbcl3
   type: paper
-  image: images/projects/policy-extraction/teaser.webp
   projects:
   - policy-extraction
   plugin: bibtex.py
@@ -1186,7 +1122,6 @@
   date: '2021-01-01'
   link: https://openreview.net/forum?id=xppLmXCbOw1
   type: paper
-  image: images/projects/object-centric-rl/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2011.14381
@@ -1211,7 +1146,6 @@
   date: '2021-07-01'
   link: https://proceedings.mlr.press/v139/vlastelica21a.html
   type: paper
-  image: images/papers/VlastelicaEtal2021-NeuroAlgorithmic.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2102.07456
@@ -1227,7 +1161,6 @@
   date: '2021-06-01'
   link: https://link.springer.com/article/10.1007%2Fs10514-021-09990-9
   type: journal
-  image: images/papers/kloss_auro_2020.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1007/s10514-021-09990-9
@@ -1245,7 +1178,6 @@
   date: '2021-01-01'
   link: https://www.nature.com/articles/s41598-021-82681-8
   type: journal
-  image: images/projects/fmri-brain-activity/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1038/s41598-021-82681-8
@@ -1269,7 +1201,6 @@
   date: '2020-01-01'
   link: https://corlconf.github.io/paper_217
   type: paper
-  image: images/projects/icem/teaser.webp
   projects:
   - icem
   plugin: bibtex.py
@@ -1287,7 +1218,6 @@
   date: '2020-08-01'
   link: https://arxiv.org/abs/2003.11657
   type: paper
-  image: images/projects/deep-graph-matching/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2003.11657
@@ -1308,7 +1238,6 @@
   date: '2020-01-01'
   link: https://openaccess.thecvf.com/content_CVPR_2020/html/Rolinek_Optimizing_Rank-Based_Metrics_With_Blackbox_Differentiation_CVPR_2020_paper.html
   type: book
-  image: images/projects/rank-based-metrics/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1912.03500
@@ -1332,7 +1261,6 @@
   date: '2020-01-01'
   link: https://openreview.net/forum?id=BkevoJSYPB
   type: paper
-  image: images/papers/VlastelicaEtal2020-BBoxSolvers.webp
   plugin: bibtex.py
   file: bibtex.yaml
 - id: ZhuMar20
@@ -1345,7 +1273,6 @@
   date: '2020-07-01'
   link: https://www.sciencedirect.com/science/article/pii/S2405896320315950
   type: paper
-  image: images/papers/ZhuMar20.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1911.09214
@@ -1363,7 +1290,6 @@
   date: '2020-01-01'
   link: http://al.is.tuebingen.mpg.de/publications/linmartiusoettel2019-dftml
   type: journal
-  image: images/projects/eql-statistical-physics/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1910.12752
@@ -1385,7 +1311,6 @@
   date: '2019-12-01'
   link: https://doi.org/10.1109/SSCI44817.2019.9002779
   type: paper
-  image: images/papers/Khajehabdollahi2019.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2105.08635
@@ -1412,7 +1337,6 @@
   date: '2020-01-01'
   link: https://doi.org/10.1109/ICRA40945.2020.9197392
   type: paper
-  image: images/papers/AgudeloEspanaetal20.webp
   buttons:
   - type: pdf
     link: https://www.is.mpg.de/uploads_file/attachment/attachment/589/ICRA20_1157_FI.pdf
@@ -1430,7 +1354,6 @@
   date: '2019-01-01'
   link: https://www.frontiersin.org/article/10.3389/fnbot.2019.00051
   type: journal
-  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1446,7 +1369,6 @@
   date: '2019-01-01'
   link: http://papers.nips.cc/paper/9418-control-what-you-can-intrinsically-motivated-task-planning-agent.pdf
   type: paper
-  image: images/projects/cwyc/teaser.webp
   projects:
   - cwyc
   plugin: bibtex.py
@@ -1462,7 +1384,6 @@
   date: '2019-01-01'
   link: https://doi.org/10.1109/TCDS.2019.2925890
   type: journal
-  image: images/projects/self-exploration-of-behavior/teaser.webp
   projects:
   - self-exploration-of-behavior
   plugin: bibtex.py
@@ -1493,7 +1414,6 @@
   date: '2019-06-01'
   link: https://openaccess.thecvf.com/content_CVPR_2019/html/Rolinek_Variational_Autoencoders_Pursue_PCA_Directions_by_Accident_CVPR_2019_paper.html
   type: paper
-  image: images/projects/representation-learning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1812.06775
@@ -1510,7 +1430,6 @@
   date: '2018-01-01'
   link: http://papers.nips.cc/paper/7879-l4-practical-loss-based-stepsize-adaptation-for-deep-learning.pdf
   type: paper
-  image: images/projects/l4-stepsize-adaptation/teaser.webp
   projects:
   - l4-stepsize-adaptation
   plugin: bibtex.py
@@ -1530,7 +1449,6 @@
   date: '2019-01-01'
   link: https://dl.acm.org/doi/10.1145/3302504.3311813
   type: paper
-  image: images/papers/bogomolovEtAl2019-falsification_nlopt.webp
   buttons:
   - type: pdf
     link: https://is.mpg.de/uploads/publication_attachment/attachment/657/bogomolovEtal2019_falsification_personal_copy.pdf
@@ -1547,7 +1465,6 @@
   date: '2018-01-01'
   link: http://al.is.tuebingen.mpg.de/publications/sunmartius2018-singletouchsensation
   type: paper
-  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1561,7 +1478,6 @@
   publisher: IEEE-RAS International Conference on Humanoid Robots (Humanoids 2018)
   date: '2018-01-01'
   type: paper
-  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1576,7 +1492,6 @@
   date: '2018-01-01'
   link: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00062
   type: paper
-  image: images/projects/self-exploration-of-behavior/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1162/isal\_a\_00062
@@ -1595,7 +1510,6 @@
   date: '2018-01-01'
   link: http://proceedings.mlr.press/v80/sahoo18a.html
   type: paper
-  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: pdf
     link: http://proceedings.mlr.press/v80/sahoo18a/sahoo18a.pdf
@@ -1627,7 +1541,6 @@
   date: '2016-01-01'
   link: https://arxiv.org/abs/1610.02995
   type: preprint
-  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1610.02995
@@ -1695,7 +1608,6 @@
   date: '2015-01-01'
   link: http://www.pnas.org/content/112/45/E6224.abstract
   type: journal
-  image: images/projects/self-exploration-of-behavior/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1073/pnas.1508400112
@@ -1764,7 +1676,6 @@
   date: '2012-01-01'
   link: http://playfulmachines.com
   type: book
-  image: images/projects/playful-machine/teaser.webp
   buttons:
   - type: pdf
     link: http://robot.informatik.uni-leipzig.de/research/publications/2012/the-playful-machine.pdf
@@ -1936,7 +1847,6 @@
   publisher: <http://robot.informatik.uni-leipzig.de/software>
   date: '2010-01-01'
   type: preprint
-  image: images/projects/playful-machine/teaser.webp
   projects:
   - playful-machine
   plugin: bibtex.py
@@ -2023,7 +1933,6 @@
   date: '2024-01-01'
   link: https://arxiv.org/abs/2307.11373
   type: preprint
-  image: images/projects/offline-diversity-imitation/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2307.11373
@@ -2041,7 +1950,6 @@
   date: '2026-01-01'
   link: https://arxiv.org/abs/2501.04426
   type: preprint
-  image: images/projects/offline-diversity-imitation/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2501.04426
@@ -2061,7 +1969,6 @@
   date: '2023-01-01'
   link: https://arxiv.org/abs/2310.02440
   type: preprint
-  image: images/projects/dominic/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2310.02440

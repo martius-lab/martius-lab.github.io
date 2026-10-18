@@ -6,9 +6,6 @@ from pylatexenc.latex2text import LatexNodes2Text
 from util import *
 
 
-# image extensions to look for in images/papers/<key>.<ext>
-image_extensions = ["webp", "png", "jpg", "jpeg", "gif", "svg"]
-
 # map bibtex entry type to citation type (icon), see _data/types.yaml
 entry_types = {
     "article": "journal",
@@ -60,11 +57,10 @@ def main(entry):
         raise Exception(f"Could not parse bib entries (check their syntax): {', '.join(lost)}")
 
     members = load_member_names()
-    project_images = load_project_images()
 
     sources = []
     for bib_entry in bib.entries:
-        source = convert(bib_entry, members, project_images)
+        source = convert(bib_entry, members)
         # fields from data file entry (e.g. type) apply to all sources
         for key, value in entry.items():
             if key != "file":
@@ -124,16 +120,6 @@ def load_member_names():
     return {name.strip() for name in names if name and name.strip()}
 
 
-def load_project_images():
-    """
-    get teaser image of each project, as fallback image for its papers
-    """
-    return {
-        slug: get_safe(data, "image", "")
-        for slug, data in load_front_matter("_projects").items()
-    }
-
-
 def get_date(bib_entry):
     """
     get date (YYYY-MM-DD) from year and month fields
@@ -158,32 +144,7 @@ def get_arxiv(bib_entry):
     return ""
 
 
-def get_image(key, bib_entry, project_images):
-    """
-    get image from bib field, or from images/papers/<key>.<ext>,
-    or else the teaser image of the paper's first project
-    """
-    if bib_entry.get("image"):
-        return bib_entry["image"].strip()
-    name = image_name(key)
-    for ext in image_extensions:
-        image = Path("images/papers") / f"{name}.{ext}"
-        if image.is_file():
-            return image.as_posix()
-    for project in split_list(bib_entry.get("projects")):
-        if project_images.get(project):
-            return project_images[project]
-    return ""
-
-
-def image_name(key):
-    """
-    filesystem-safe version of bib key
-    """
-    return re.sub(r"[^a-zA-Z0-9_-]", "-", key)
-
-
-def convert(bib_entry, members, project_images):
+def convert(bib_entry, members):
     """
     convert bibtexparser entry to citation source
     """
@@ -233,7 +194,8 @@ def convert(bib_entry, members, project_images):
         "date": get_date(bib_entry),
         "link": link,
         "type": entry_types.get(entry_type, "paper"),
-        "image": get_image(key, bib_entry, project_images),
+        # images/papers/<key> and project images are resolved in _includes/citation.html
+        "image": bib_entry.get("image", "").strip(),
         "description": bib_entry.get("description", "").strip(),
         "buttons": buttons,
         "tags": split_list(bib_entry.get("tags")),
