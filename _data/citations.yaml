@@ -99,6 +99,7 @@
   date: '2025-04-01'
   link: https://www.cell.com/iscience/fulltext/S2589-0042(25)00464-X
   type: journal
+  image: images/projects/natural-robust-walking/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2309.02976
@@ -112,7 +113,7 @@
   title: Sensing multi-directional forces at superresolution using taxel value isoline
     theory
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - Adam Spiers
   - Hyosang Lee
   - Jonathan Fiene
@@ -121,6 +122,7 @@
   date: '2025-01-01'
   link: https://doi.org/10.1038/s41467-025-63230-7
   type: journal
+  image: images/projects/super-resolution-haptics/teaser.webp
   projects:
   - super-resolution-haptics
   plugin: bibtex.py
@@ -156,7 +158,7 @@
   - Jiaqi Chen
   - '**Ji Shi**'
   - '**Cansu Sancaktar**'
-  - '**Jonas Frey**'
+  - Jonas Frey
   - '**Georg Martius**'
   publisher: Reinforcement Learning Journal
   date: '2025-01-01'
@@ -201,7 +203,7 @@
   - Thomas Rupf
   - '**Marco Bagatella**'
   - "**Nico G\xFCrtler**"
-  - '**Jonas Frey**'
+  - Jonas Frey
   - '**Georg Martius**'
   publisher: International Conference on Machine Learning (ICML)
   date: '2025-10-01'
@@ -241,6 +243,7 @@
   date: '2025-07-01'
   link: https://arxiv.org/abs/2503.01584
   type: paper
+  image: images/projects/sensei/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2503.01584
@@ -286,7 +289,7 @@
     Locomotion and Navigation
   authors:
   - Jiaqi Chen
-  - '**Jonas Frey**'
+  - Jonas Frey
   - Ruyi Zhou
   - Takahiro Miki
   - '**Georg Martius**'
@@ -321,7 +324,7 @@
   title: Learning with 3D rotations, a hitchhiker's guide to SO(3)
   authors:
   - '**A. R. Geist**'
-  - '**J. Frey**'
+  - J. Frey
   - '**M. Zhobro**'
   - A. Levina
   - '**G. Martius**'
@@ -353,7 +356,7 @@
 - id: Ruaudetal24
   title: Modelling Microbial Communities with Graph Neural Networks
   authors:
-  - '**A. Ruaud**'
+  - A. Ruaud
   - '**C. Sancaktar**'
   - '**M. Bagatella**'
   - C. Ratzke
@@ -420,7 +423,7 @@
 - id: Yaoetal24
   title: Multi-View Causal Representation Learning with Partial Observability
   authors:
-  - '**D. Yao**'
+  - D. Yao
   - D. Xu
   - S. Lachapelle
   - S. Magliacane
@@ -450,6 +453,7 @@
   date: '2024-01-01'
   link: https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c01238
   type: journal
+  image: images/projects/eql-statistical-physics/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/https://doi.org/10.1021/acs.jctc.3c01238
@@ -517,6 +521,7 @@
   date: '2023-12-01'
   link: https://openreview.net/forum?id=BHHrX3CRE1
   type: paper
+  image: images/projects/regularity-free-play/teaser.webp
   projects:
   - regularity-free-play
   plugin: bibtex.py
@@ -535,13 +540,14 @@
   title: 'Minsight: A Fingertip-Sized Vision-Based Tactile Sensor for Robotic Manipulation'
   authors:
   - '**Iris Andrussow**'
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - Katherine J. Kuchenbecker
   - '**Georg Martius**'
   publisher: Advanced Intelligent Systems
   date: '2023-08-01'
   link: https://doi.org/10.1002/aisy.202300042
   type: journal
+  image: images/projects/insight-haptic-sensor/teaser.webp
   projects:
   - insight-haptic-sensor
   plugin: bibtex.py
@@ -576,6 +582,7 @@
   date: '2023-05-01'
   link: https://openreview.net/forum?id=C-xa_D3oTj6
   type: paper
+  image: images/projects/dep-rl/teaser.webp
   projects:
   - dep-rl
   plugin: bibtex.py
@@ -601,9 +608,9 @@
   title: 'Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement
     Learning'
   authors:
-  - '**Onno Eberhard**'
-  - '**Jakob Hollenstein**'
-  - '**Cristina Pinneri**'
+  - Onno Eberhard
+  - Jakob Hollenstein
+  - Cristina Pinneri
   - '**Georg Martius**'
   publisher: Proceedings of the Eleventh International Conference on Learning Representations
     (ICLR)
@@ -616,11 +623,11 @@
   title: Versatile Skill Control via Self-supervised Adversarial Imitation of Unlabeled
     Mixed Motions
   authors:
-  - '**C. Li**'
+  - C. Li
   - S. Blaes
   - '**P. Kolev**'
   - '**M. Vlastelica**'
-  - '**J. Frey**'
+  - J. Frey
   - '**G. Martius**'
   publisher: Proceedings of the IEEE International Conference on Robotics and Automation
     (ICRA)
@@ -644,7 +651,7 @@
   - '**Maximilian Seitzer**'
   - Max Horn
   - '**Andrii Zadaianchuk**'
-  - '**Dominik Zietlow**'
+  - Dominik Zietlow
   - Tianjun Xiao
   - Carl-Johann Simon-Gabriel
   - Tong He
@@ -663,7 +670,7 @@
     and Deep Networks
   authors:
   - Hyosang Lee
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - Hyunkyu Park
   - Gokhan Serhat
   - Bernard Javot
@@ -678,16 +685,17 @@
 - id: li2022wasabi
   title: Learning Agile Skills via Adversarial Imitation of Rough Partial Demonstrations
   authors:
-  - '**C. Li**'
+  - C. Li
   - '**M. Vlastelica**'
   - S. Blaes
-  - '**J. Frey**'
+  - J. Frey
   - F. Grimminger
   - '**G. Martius**'
   publisher: Proceedings of the 6th Conference on Robot Learning (CoRL)
   date: '2022-12-01'
   link: https://proceedings.mlr.press/v205/li23b.html
   type: paper
+  image: images/projects/agile-skills-wasabi/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2206.11693
@@ -715,6 +723,7 @@
   date: '2022-12-01'
   link: https://openreview.net/forum?id=Xo3eOibXCQ8
   type: paper
+  image: images/projects/muscles-learning-behavior/teaser.webp
   projects:
   - muscles-learning-behavior
   plugin: bibtex.py
@@ -742,6 +751,7 @@
   date: '2022-12-01'
   link: https://openreview.net/forum?id=NnuYZ1el24C
   type: paper
+  image: images/projects/cee-us/teaser.webp
   projects:
   - cee-us
   plugin: bibtex.py
@@ -753,7 +763,7 @@
   - L. Gresele*
   - J. Brady*
   - "J. von K\xFCgelgen"
-  - '**D. Zietlow**'
+  - D. Zietlow
   - "B. Sch\xF6lkopf"
   - '**G. Martius**'
   - W. Brendel
@@ -775,7 +785,7 @@
   title: A Soft Vision-Based Tactile Sensor for Robotic Fingertip Manipulation
   authors:
   - '**Iris Andrussow**'
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - Katherine J. Kuchenbecker
   - '**Georg Martius**'
   publisher: 'Workshop paper (1 page) presented at the IROS Workshop on Large-Scale
@@ -815,6 +825,7 @@
   date: '2022-04-01'
   link: https://openreview.net/forum?id=aPOpXlnV1T
   type: paper
+  image: images/projects/beta-nll/teaser.webp
   projects:
   - beta-nll
   plugin: bibtex.py
@@ -823,12 +834,13 @@
   title: Guiding the Design of Super-resolution Tactile Skins with Taxel Value Isolines
     Theory
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - '**Georg Martius**'
   publisher: Science Robotics
   date: '2022-02-01'
   link: https://www.science.org/stoken/author-tokens/ST-350/full
   type: journal
+  image: images/projects/super-resolution-haptics/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1126/scirobotics.abm0608
@@ -857,13 +869,14 @@
 - id: Insight
   title: A Soft Thumb-Sized Vision-Based Sensor with Accurate All-Round Force Perception
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - Katherine J. Kuchenbecker
   - '**Georg Martius**'
   publisher: Nature Machine Intelligence
   date: '2022-02-01'
   link: https://rdcu.be/cHCl9
   type: journal
+  image: images/projects/insight-haptic-sensor/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1038/s42256-021-00439-3
@@ -882,6 +895,7 @@
   date: '2021-01-01'
   link: https://arxiv.org/abs/2105.06331
   type: preprint
+  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2105.06331
@@ -901,6 +915,7 @@
   date: '2022-01-01'
   link: https://doi.org/10.1145/3520304.3533964
   type: paper
+  image: images/projects/symbolic-regression/teaser.webp
   projects:
   - symbolic-regression
   plugin: bibtex.py
@@ -910,12 +925,13 @@
   authors:
   - Marin Vlastelica*
   - Sebastian Blaes*
-  - '**Cristina Pinneri**'
+  - Cristina Pinneri
   - '**Georg Martius**'
   publisher: Conference on Robot Learning
   date: '2021-11-01'
   link: https://proceedings.mlr.press/v164/vlastelica22a.html
   type: paper
+  image: images/projects/risk-averse-planning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2309.05582
@@ -958,7 +974,7 @@
   authors:
   - '**Marco Bagatella**'
   - "Mirek Ol\u0161\xE1k"
-  - "**Michal Rol\xEDnek**"
+  - "Michal Rol\xEDnek"
   - '**Georg Martius**'
   publisher: Advances in Neural Information Processing Systems (NeurIPS 2021)
   date: '2021-12-01'
@@ -995,6 +1011,7 @@
   date: '2021-11-01'
   link: https://proceedings.mlr.press/v164/zadaianchuk22a.html
   type: paper
+  image: images/projects/object-centric-rl/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2109.04150
@@ -1015,6 +1032,7 @@
   date: '2021-07-01'
   link: https://proceedings.mlr.press/v139/paulus21a.html
   type: paper
+  image: images/projects/comboptnet/teaser.webp
   projects:
   - comboptnet
   plugin: bibtex.py
@@ -1023,7 +1041,7 @@
   title: Machine learning time-local generators of open quantum dynamics
   authors:
   - Paolo P. Mazza
-  - '**Dominik Zietlow**'
+  - Dominik Zietlow
   - Federico Carollo
   - Sabine Andergassen
   - '**Georg Martius**'
@@ -1032,6 +1050,7 @@
   date: '2021-04-01'
   link: https://link.aps.org/doi/10.1103/PhysRevResearch.3.023084
   type: journal
+  image: images/projects/quantum-systems/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1103/PhysRevResearch.3.023084
@@ -1061,14 +1080,15 @@
 - id: zietld2021:demystifying
   title: Demystifying Inductive Biases for (Beta-)VAE Based Architectures
   authors:
-  - '**Dominik Zietlow**'
-  - '**Michal Rolinek**'
+  - Dominik Zietlow
+  - Michal Rolinek
   - '**Georg Martius**'
   publisher: Proceedings of the 2021 International Conference on Machine Learning
     (ICML)
   date: '2021-07-01'
   link: https://proceedings.mlr.press/v139/zietlow21a.html
   type: paper
+  image: images/projects/representation-learning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2102.06822
@@ -1100,7 +1120,7 @@
   title: Extracting Strong Policies for Robotics Tasks from Zero-order Trajectory
     Optimizers
   authors:
-  - '**Cristina Pinneri**'
+  - Cristina Pinneri
   - Shambhuraj Sawant
   - Sebastian Blaes
   - '**Georg Martius**'
@@ -1108,6 +1128,7 @@
   date: '2021-01-01'
   link: https://openreview.net/forum?id=Nc3TJqbcl3
   type: paper
+  image: images/projects/policy-extraction/teaser.webp
   projects:
   - policy-extraction
   plugin: bibtex.py
@@ -1122,6 +1143,7 @@
   date: '2021-01-01'
   link: https://openreview.net/forum?id=xppLmXCbOw1
   type: paper
+  image: images/projects/object-centric-rl/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2011.14381
@@ -1139,7 +1161,7 @@
   title: Neuro-algorithmic Policies Enable Fast Combinatorial Generalization
   authors:
   - '**Marin Vlastelica**'
-  - '**Michal Rolinek**'
+  - Michal Rolinek
   - '**Georg Martius**'
   publisher: Proceedings of the 2021 International Conference on Machine Learning
     (ICML)
@@ -1178,6 +1200,7 @@
   date: '2021-01-01'
   link: https://www.nature.com/articles/s41598-021-82681-8
   type: journal
+  image: images/projects/fmri-brain-activity/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1038/s41598-021-82681-8
@@ -1190,17 +1213,18 @@
 - id: PinneriEtAl2020:iCEM
   title: Sample-efficient Cross-Entropy Method for Real-time Planning
   authors:
-  - '**Cristina Pinneri**'
+  - Cristina Pinneri
   - Shambhuraj Sawant
   - Sebastian Blaes
   - Jan Achterhold
   - Joerg Stueckler
-  - '**Michal Rolinek**'
+  - Michal Rolinek
   - '**Georg Martius**'
   publisher: Conference on Robot Learning (CoRL) 2020
   date: '2020-01-01'
   link: https://corlconf.github.io/paper_217
   type: paper
+  image: images/projects/icem/teaser.webp
   projects:
   - icem
   plugin: bibtex.py
@@ -1208,9 +1232,9 @@
 - id: RolinekEtAl2020:GraphMatching
   title: Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers
   authors:
-  - '**Michal Rolinek**'
+  - Michal Rolinek
   - Paul Swoboda
-  - '**Dominik Zietlow**'
+  - Dominik Zietlow
   - '**Anselm Paulus**'
   - Vit Musil
   - '**Georg Martius**'
@@ -1218,6 +1242,7 @@
   date: '2020-08-01'
   link: https://arxiv.org/abs/2003.11657
   type: paper
+  image: images/projects/deep-graph-matching/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2003.11657
@@ -1238,6 +1263,7 @@
   date: '2020-01-01'
   link: https://openaccess.thecvf.com/content_CVPR_2020/html/Rolinek_Optimizing_Rank-Based_Metrics_With_Blackbox_Differentiation_CVPR_2020_paper.html
   type: book
+  image: images/projects/rank-based-metrics/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1912.03500
@@ -1256,7 +1282,7 @@
   - '**Anselm Paulus**'
   - "V\xEDt Musil"
   - '**Georg Martius**'
-  - "**Michal Rol\xEDnek**"
+  - "Michal Rol\xEDnek"
   publisher: International Conference on Learning Representations
   date: '2020-01-01'
   link: https://openreview.net/forum?id=BkevoJSYPB
@@ -1290,6 +1316,7 @@
   date: '2020-01-01'
   link: http://al.is.tuebingen.mpg.de/publications/linmartiusoettel2019-dftml
   type: journal
+  image: images/projects/eql-statistical-physics/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1910.12752
@@ -1348,12 +1375,13 @@
   title: 'Machine Learning for Haptics: Inferring Multi-Contact Stimulation From Sparse
     Sensor Configuration'
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - '**Georg Martius**'
   publisher: Frontiers in Neurorobotics
   date: '2019-01-01'
   link: https://www.frontiersin.org/article/10.3389/fnbot.2019.00051
   type: journal
+  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1369,6 +1397,7 @@
   date: '2019-01-01'
   link: http://papers.nips.cc/paper/9418-control-what-you-can-intrinsically-motivated-task-planning-agent.pdf
   type: paper
+  image: images/projects/cwyc/teaser.webp
   projects:
   - cwyc
   plugin: bibtex.py
@@ -1384,6 +1413,7 @@
   date: '2019-01-01'
   link: https://doi.org/10.1109/TCDS.2019.2925890
   type: journal
+  image: images/projects/self-exploration-of-behavior/teaser.webp
   projects:
   - self-exploration-of-behavior
   plugin: bibtex.py
@@ -1407,13 +1437,14 @@
 - id: RolinekZietlowMartius2019:VAEPCA
   title: Variational Autoencoders Pursue PCA Directions (by Accident)
   authors:
-  - "**Michal Rol\xEDnek**"
-  - '**Dominik Zietlow**'
+  - "Michal Rol\xEDnek"
+  - Dominik Zietlow
   - '**Georg Martius**'
   publisher: Conference on Computer Vision and Pattern Recognition (CVPR'19)
   date: '2019-06-01'
   link: https://openaccess.thecvf.com/content_CVPR_2019/html/Rolinek_Variational_Autoencoders_Pursue_PCA_Directions_by_Accident_CVPR_2019_paper.html
   type: paper
+  image: images/projects/representation-learning/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1812.06775
@@ -1424,12 +1455,13 @@
 - id: RolinekMartius2018:L4
   title: 'L4: Practical loss-based stepsize adaptation for deep learning'
   authors:
-  - "**Michal Rol\xEDnek**"
+  - "Michal Rol\xEDnek"
   - '**Georg Martius**'
   publisher: Advances in Neural Information Processing (NeurIPS'18)
   date: '2018-01-01'
   link: http://papers.nips.cc/paper/7879-l4-practical-loss-based-stepsize-adaptation-for-deep-learning.pdf
   type: paper
+  image: images/projects/l4-stepsize-adaptation/teaser.webp
   projects:
   - l4-stepsize-adaptation
   plugin: bibtex.py
@@ -1459,12 +1491,13 @@
 - id: SunMartius2018:SingleTouchSensation
   title: Robust Affordable 3D Haptic Sensation via Learning Deformation Patterns
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - '**Georg Martius**'
   publisher: Proceedings International Conference on Humanoid Robots (IEEE Humanoids)
   date: '2018-01-01'
   link: http://al.is.tuebingen.mpg.de/publications/sunmartius2018-singletouchsensation
   type: paper
+  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1473,11 +1506,12 @@
   title: Robust and Cheap 3D Haptic Sensation using Deformation Patterns and Machine
     Learning
   authors:
-  - '**Huanbo Sun**'
+  - Huanbo Sun
   - '**Georg Martius**'
   publisher: IEEE-RAS International Conference on Humanoid Robots (Humanoids 2018)
   date: '2018-01-01'
   type: paper
+  image: images/projects/sparse-haptic-sensing/teaser.webp
   projects:
   - sparse-haptic-sensing
   plugin: bibtex.py
@@ -1486,12 +1520,13 @@
   title: Systematic self-exploration of behaviors for robots in a dynamical systems
     framework
   authors:
-  - '**Cristina Pinneri**'
+  - Cristina Pinneri
   - '**Georg Martius**'
   publisher: Proc. Artificial Life XI
   date: '2018-01-01'
   link: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00062
   type: paper
+  image: images/projects/self-exploration-of-behavior/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1162/isal\_a\_00062
@@ -1510,6 +1545,7 @@
   date: '2018-01-01'
   link: http://proceedings.mlr.press/v80/sahoo18a.html
   type: paper
+  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: pdf
     link: http://proceedings.mlr.press/v80/sahoo18a/sahoo18a.pdf
@@ -1541,6 +1577,7 @@
   date: '2016-01-01'
   link: https://arxiv.org/abs/1610.02995
   type: preprint
+  image: images/projects/symbolic-regression/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/1610.02995
@@ -1608,6 +1645,7 @@
   date: '2015-01-01'
   link: http://www.pnas.org/content/112/45/E6224.abstract
   type: journal
+  image: images/projects/self-exploration-of-behavior/teaser.webp
   buttons:
   - type: doi
     link: https://doi.org/10.1073/pnas.1508400112
@@ -1676,6 +1714,7 @@
   date: '2012-01-01'
   link: http://playfulmachines.com
   type: book
+  image: images/projects/playful-machine/teaser.webp
   buttons:
   - type: pdf
     link: http://robot.informatik.uni-leipzig.de/research/publications/2012/the-playful-machine.pdf
@@ -1847,6 +1886,7 @@
   publisher: <http://robot.informatik.uni-leipzig.de/software>
   date: '2010-01-01'
   type: preprint
+  image: images/projects/playful-machine/teaser.webp
   projects:
   - playful-machine
   plugin: bibtex.py
@@ -1933,6 +1973,7 @@
   date: '2024-01-01'
   link: https://arxiv.org/abs/2307.11373
   type: preprint
+  image: images/projects/offline-diversity-imitation/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2307.11373
@@ -1950,6 +1991,7 @@
   date: '2026-01-01'
   link: https://arxiv.org/abs/2501.04426
   type: preprint
+  image: images/projects/offline-diversity-imitation/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2501.04426
@@ -1963,12 +2005,13 @@
   - Jin Cheng
   - '**Marin Vlastelica**'
   - '**Pavel Kolev**'
-  - '**Chenhao Li**'
+  - Chenhao Li
   - '**Georg Martius**'
   publisher: arXiv preprint
   date: '2023-01-01'
   link: https://arxiv.org/abs/2310.02440
   type: preprint
+  image: images/projects/dominic/teaser.webp
   buttons:
   - type: arxiv
     link: https://arxiv.org/abs/2310.02440
