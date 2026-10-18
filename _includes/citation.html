@@ -10,7 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -60,16 +60,14 @@
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
-        </span>
-        &nbsp;·&nbsp;
+        {% if citation.publisher %}
+          <span class="citation-publisher">
+            {{- citation.publisher -}}
+          </span>
+          &nbsp;·&nbsp;
+        {% endif %}
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
+          {{- citation.date | default: "[no date info]" | date: "%Y" -}}
         </span>
       </div>
 

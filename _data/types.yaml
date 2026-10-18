@@ -10,9 +10,25 @@ postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
+researcher:
+  icon: fa-solid fa-flask
+  description: Researcher
+
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+
+student:
+  icon: fa-solid fa-user-graduate
+  description: Master/Bachelor Student
+
+admin:
+  icon: fa-solid fa-briefcase
+  description: Administration
+
+alumni:
+  icon: fa-solid fa-person-walking-arrow-right
+  description: Alumni
 
 undergrad:
   icon: fa-solid fa-user-graduate
@@ -183,6 +199,31 @@ unpublished:
   icon: fa-regular fa-eye
   text: Unpublished
   tooltip: Unpublished
+
+thesis:
+  icon: fa-solid fa-graduation-cap
+  text: Thesis
+  tooltip: Thesis
+
+pdf:
+  icon: fa-solid fa-file-pdf
+  text: PDF
+  tooltip: PDF
+
+arxiv:
+  icon: fa-solid fa-file-lines
+  text: arXiv
+  tooltip: arXiv preprint
+
+doi:
+  icon: fa-solid fa-link
+  text: DOI
+  tooltip: Publisher version (DOI)
+
+video:
+  icon: fa-solid fa-video
+  text: Video
+  tooltip: Video
 
 manubot:
   icon: manubot.svg

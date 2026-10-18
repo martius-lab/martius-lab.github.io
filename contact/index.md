@@ -1,77 +1,53 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 7
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Prof. Dr. Georg Martius**  
+Distributed Intelligence / Autonomous Learning  
+Department of Computer Science, University of Tübingen  
+Maria-von-Linden-Straße 6, 72076 Tübingen, Germany
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="georg.martius@uni-tuebingen.de"
+  link="georg.martius@uni-tuebingen.de"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="Our location on Google Maps"
+  link="https://www.google.com/maps/search/?api=1&query=Maria-von-Linden-Stra%C3%9Fe+6,+72076+T%C3%BCbingen"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
+## Administration
+
+**Monika Burkhardt**  
+Office 00-28/A16, Maria-von-Linden-Straße 6, 72076 Tübingen
 
 {%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  include button.html
+  type="email"
+  text="monika.burkhardt@uni-tuebingen.de"
+  link="monika.burkhardt@uni-tuebingen.de"
 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
 {%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  include button.html
+  type="phone"
+  text="+49 7071 29 70920"
+  link="+49-7071-29-70920"
 %}
 
-{% endcapture %}
+{% include section.html %}
 
-{% include cols.html col1=col1 col2=col2 %}
+## Studying with us
 
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+Lectures, seminars, and thesis topics are listed on our [teaching page]({{ "teaching/" | relative_url }}) at the university website.
+For open PhD and postdoc positions, see [Open Positions]({{ "open-positions/" | relative_url }}).

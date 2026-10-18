@@ -1,282 +1,1884 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: MilosevicFranz2026:SDH
+  title: Stochastic Decision Horizons for Survival-Based Constrained Reinforcement
+    Learning
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
-  authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  - Nikola Milosevic
+  - '**Leonard Franz**'
+  - Daniel Haeufle
+  - '**Georg Martius**'
+  - Nico Scherf
+  - '**Pavel Kolev**'
+  publisher: arXiv preprint
+  date: '2026-01-01'
+  link: https://arxiv.org/abs/2602.04599
+  type: preprint
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - type: arxiv
+    link: https://arxiv.org/abs/2602.04599
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: kordos2026locomposition
+  title: 'LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without
+    Gait Priors'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+  - Loukas Kordos
+  - '**Leonard T. Franz**'
+  - '**Simon Rappenecker**'
+  - Oliver Hausdoerfer
+  - Angela P. Schoellig
+  - '**Pavel Kolev**'
+  - '**Georg Martius**'
+  publisher: arXiv preprint
+  date: '2026-01-01'
+  link: https://arxiv.org/abs/2606.15896
+  type: preprint
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2606.15896
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: paulus2026:DiffMJX
+  title: Differentiable Simulation of Hard Contacts with Soft Gradients for Learning
+    and Control
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
+  - '**Anselm Paulus**'
+  - "**Andreas Ren\xE9 Geist**"
+  - Pierre Schumacher
+  - "V\xEDt Musil"
+  - '**Simon Rappenecker**'
+  - '**Georg Martius**'
+  publisher: The Fourteenth International Conference on Learning Representations
+  date: '2026-01-01'
+  link: https://openreview.net/forum?id=2EGtfFwxx8
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Ada2026:FORL
+  title: Forecasting in Offline Reinforcement Learning for Non-stationary Environments
+  authors:
+  - Suzan Ece Ada
+  - '**Georg Martius**'
+  - Emre Ugur
+  - Erhan Oztop
+  publisher: The Thirty-ninth Annual Conference on Neural Information Processing Systems
+  date: '2026-01-01'
+  link: https://openreview.net/forum?id=24UJqxw1kv
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Andrussow25-H-Minsound
+  title: Adding Internal Audio Sensing to Internal Vision Enables Human-Like In-Hand
+    Fabric Recognition with Soft Robotic Fingertips
+  authors:
+  - '**Iris Andrussow**'
+  - Jans Solano
+  - Benjamin A. Richardson
+  - '**Georg Martius**'
+  - Katherine J. Kuchenbecker
+  publisher: Proceedings of the IEEE-RAS International Conference on Humanoid Robots
+    (Humanoids)
+  date: '2025-09-01'
+  link: https://doi.org/10.1109/Humanoids65713.2025.11203050
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: schumacher2025:NaturalAndRobustWalking
+  title: Emergence of natural and robust bipedal walking by learning from biologically
+    plausible objectives
+  authors:
+  - Pierre Schumacher
+  - Thomas Geijtenbeek
+  - Vittorio Caggiano
+  - Vikash Kumar
+  - Syn Schmitt
+  - '**Georg Martius**'
+  - Daniel F B Haeufle
+  publisher: iScience
+  date: '2025-04-01'
+  link: https://www.cell.com/iscience/fulltext/S2589-0042(25)00464-X
+  type: journal
+  image: images/projects/natural-robust-walking/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2309.02976
+  - type: doi
+    link: https://doi.org/10.1016/j.isci.2025.112203
+  projects:
+  - natural-robust-walking
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Sun2025:BarodomeSuperres
+  title: Sensing multi-directional forces at superresolution using taxel value isoline
+    theory
+  authors:
+  - Huanbo Sun
+  - Adam Spiers
+  - Hyosang Lee
+  - Jonathan Fiene
+  - '**Georg Martius**'
+  publisher: Nature Communications
+  date: '2025-01-01'
+  link: https://doi.org/10.1038/s41467-025-63230-7
+  type: journal
+  image: images/projects/super-resolution-haptics/teaser.webp
+  projects:
+  - super-resolution-haptics
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: guertler2025:SPATES
+  title: Long-Horizon Planning with Predictable Skills
+  authors:
+  - "**Nico G\xFCrtler**"
+  - '**Georg Martius**'
+  publisher: Reinforcement Learning Journal
+  date: '2025-01-01'
+  link: https://rlj.cs.umass.edu/2025/papers/Paper136.html
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: urpi2025:epistemicallyFB
+  title: Epistemically-guided forward-backward exploration
+  authors:
+  - "**N\xFAria Armengol Urp\xED**"
+  - '**Marin Vlastelica**'
+  - '**Georg Martius**'
+  - Stelian Coros
+  publisher: Reinforcement Learning Journal
+  date: '2025-01-01'
+  link: https://rlj.cs.umass.edu/2025/papers/Paper241.html
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: chen2025:offlineonlinemodel
+  title: 'Offline vs. Online Learning in Model-based RL: Lessons for Data Collection
+    Strategies'
+  authors:
+  - Jiaqi Chen
+  - '**Ji Shi**'
+  - '**Cansu Sancaktar**'
+  - Jonas Frey
+  - '**Georg Martius**'
+  publisher: Reinforcement Learning Journal
+  date: '2025-01-01'
+  link: https://rlj.cs.umass.edu/2025/papers/Paper42.html
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Manasyan2025:SlotContrast
+  title: Temporally Consistent Object-Centric Learning by Contrasting Slots
+  authors:
+  - '**Anna Manasyan**'
+  - '**Maximilian Seitzer**'
+  - Filip Radovic
+  - '**Georg Martius**'
+  - '**Andrii Zadaianchuk**'
+  publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+    Recognition (CVPR)
+  date: '2025-06-01'
+  link: https://openaccess.thecvf.com/content/CVPR2025/html/Manasyan_Temporally_Consistent_Object-Centric_Learning_by_Contrasting_Slots_CVPR_2025_paper.html
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Didolkaretal25
+  title: On the Transfer of Object-Centric Representation Learning
+  authors:
+  - A. R. Didolkar
+  - '**A. Zadaianchuk**'
+  - A. Goyal
+  - M. C. Mozer
+  - Y. Bengio
+  - '**G. Martius**'
+  - '**M. Seitzer**'
+  publisher: The Thirteenth International Conference on Learning Representations (ICLR)
+  date: '2025-04-01'
+  link: https://openreview.net/forum?id=bSq0XGS3kW
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: rupf2025:ZILOT
+  title: Zero-Shot Offline Imitation Learning via Optimal Transport
+  authors:
+  - Thomas Rupf
+  - '**Marco Bagatella**'
+  - "**Nico G\xFCrtler**"
+  - Jonas Frey
+  - '**Georg Martius**'
+  publisher: International Conference on Machine Learning (ICML)
+  date: '2025-10-01'
+  link: https://arxiv.org/abs/2410.08751
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2410.08751
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Bagatella2025:Fine-Tuning
+  title: Active Fine-Tuning of Multi-Task Policies
+  authors:
+  - '**Marco Bagatella**'
+  - "Jonas H\xFCbotter"
+  - '**Georg Martius**'
+  - Andreas Krause
+  publisher: International Conference on Machine Learning (ICML)
+  date: '2025-10-01'
+  link: https://arxiv.org/abs/2410.05026
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2410.05026
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: sancaktargumbsch2025:sensei
+  title: 'SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile
+    World Models'
+  authors:
+  - '**Cansu Sancaktar**'
+  - '**Christian Gumbsch**'
+  - '**Andrii Zadaianchuk**'
+  - '**Pavel Kolev**'
+  - '**Georg Martius**'
+  publisher: International Conference on Machine Learning (ICML)
+  date: '2025-07-01'
+  link: https://arxiv.org/abs/2503.01584
+  type: paper
+  image: images/projects/sensei/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2503.01584
+  projects:
+  - sensei
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Canevaroetal25
+  title: Advancing Out-of-Distribution Detection via Local Neuroplasticity
+  authors:
+  - A. Canevaro
+  - J. Schmidt
+  - M. S. Marvi
+  - H. Yu
+  - '**G. Martius**'
+  - J. Jordan
+  publisher: The Thirteenth International Conference on Learning Representations (ICLR)
+  date: '2025-04-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Bagatella2024:DirectedExplorationLTL
+  title: Directed Exploration in Reinforcement Learning from Linear Temporal Logic
+  authors:
+  - '**Marco Bagatella**'
+  - Andreas Krause
+  - '**Georg Martius**'
+  publisher: arXiv preprint
+  date: '2024-08-01'
+  link: https://arxiv.org/abs/2408.09495
+  type: preprint
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2408.09495
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: JiaquiJonas2024
+  title: Identifying Terrain Physical Parameters from Vision-Towards Physical-Parameter-Aware
+    Locomotion and Navigation
+  authors:
+  - Jiaqi Chen
+  - Jonas Frey
+  - Ruyi Zhou
+  - Takahiro Miki
+  - '**Georg Martius**'
+  - Marco Hutter
+  publisher: IEEE Robotics and Automation Letters
+  date: '2024-08-01'
+  link: https://ieeexplore.ieee.org/document/10669238
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: UrpBagVlaMar24
+  title: Causal Action Influence Aware Counterfactual Data Augmentation
+  authors:
+  - N. A. Urpi
+  - '**M. Bagatella**'
+  - '**M. Vlastelica**'
+  - '**G. Martius**'
+  publisher: 41st International Conference on Machine Learning (ICML)
+  date: '2024-07-01'
+  type: paper
+  projects:
+  - causal-reasoning-rl
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Geistetal24
+  title: Learning with 3D rotations, a hitchhiker's guide to SO(3)
+  authors:
+  - '**A. R. Geist**'
+  - J. Frey
+  - '**M. Zhobro**'
+  - A. Levina
+  - '**G. Martius**'
+  publisher: 41st International Conference on Machine Learning (ICML)
+  date: '2024-07-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: PauMarMus24
+  title: 'LPGD: A General Framework for Backpropagation through Embedded Optimization
+    Layers'
+  authors:
+  - '**A. Paulus**'
+  - '**G. Martius**'
+  - V. Musil
+  publisher: 41st International Conference on Machine Learning (ICML)
+  date: '2024-07-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Ruaudetal24
+  title: Modelling Microbial Communities with Graph Neural Networks
+  authors:
+  - A. Ruaud
+  - '**C. Sancaktar**'
+  - '**M. Bagatella**'
+  - C. Ratzke
+  - '**G. Martius**'
+  publisher: 41st International Conference on Machine Learning (ICML)
+  date: '2024-07-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Spieleretal24
+  title: 'The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological
+    Neuron Model Can Solve Long-Horizon Tasks'
+  authors:
+  - A. Spieler
+  - N. Rahaman
+  - '**G. Martius**'
+  - "B. Sch\xF6lkopf"
+  - A. Levina
+  publisher: The Twelfth International Conference on Learning Representations (ICLR)
+  date: '2024-05-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: khajehabdollahi2024
+  title: Emergent mechanisms for long timescales depend on training curriculum and
+    affect performance in memory tasks
+  authors:
+  - Sina Khajehabdollahi
+  - Roxana Zeraati
+  - Emmanouil Giannakakis
+  - "Tim Jakob Sch\xE4fer"
+  - '**Georg Martius**'
+  - Anna Levina
+  publisher: The Twelfth International Conference on Learning Representations
+  date: '2024-05-01'
+  link: https://openreview.net/forum?id=xwKt6bUkXj
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Gumbsch2024:ThickWorldModels
+  title: Learning Hierarchical World Models with Adaptive Temporal Abstractions from
+    Discrete Latent Dynamics
+  authors:
+  - '**Christian Gumbsch**'
+  - Noor Sajid
+  - '**Georg Martius**'
+  - Martin V. Butz
+  publisher: The Twelfth International Conference on Learning Representations
+  date: '2024-05-01'
+  link: https://openreview.net/forum?id=TjCDNssXKU
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Yaoetal24
+  title: Multi-View Causal Representation Learning with Partial Observability
+  authors:
+  - D. Yao
+  - D. Xu
+  - S. Lachapelle
+  - S. Magliacane
+  - P. Taslakian
+  - '**G. Martius**'
+  - "J. von K\xFCgelgen"
+  - F. Locatello
+  publisher: The Twelfth International Conference on Learning Representations (ICLR)
+  date: '2024-05-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: jctc_mlpatchy
+  title: Machine learning of a density functional for anisotropic patchy particles
+  authors:
+  - '**Alessandro Simon**'
+  - Jens Weimar
+  - '**Georg Martius**'
+  - Martin Oettel
+  publisher: Journal of Chemical Theory and Computation
+  date: '2024-01-01'
+  link: https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c01238
+  type: journal
+  image: images/projects/eql-statistical-physics/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/https://doi.org/10.1021/acs.jctc.3c01238
+  projects:
+  - eql-statistical-physics
+  - symbolic-regression
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: armengol2023:elfp
+  title: Efficient Learning of High Level Plans from Play
+  authors:
+  - '**N. Armengol Urpi**'
+  - '**M. Bagatella**'
+  - O. Hilliges
+  - '**G. Martius**'
+  - S. Coros
+  publisher: International Conference on Robotics and Automation
+  date: '2023-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: kolev2023:OL-adversarial-constraints
+  title: Online Learning under Adversarial Nonlinear Constraints
+  authors:
+  - '**Pavel Kolev**'
+  - '**Georg Martius**'
+  - Michael Muehlebach
+  publisher: Advances in Neural Information Processing Systems 36
+  date: '2023-12-01'
+  link: https://openreview.net/forum?id=N6YNe4KxDc
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Zadaianchuk2023VideoSAUR
+  title: Object-Centric Learning for Real-World Videos by Predicting Temporal Feature
+    Similarities
+  authors:
+  - '**Andrii Zadaianchuk**'
+  - '**Maximilian Seitzer**'
+  - '**Georg Martius**'
+  publisher: Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS
+    2023)
+  date: '2023-12-01'
+  link: https://openreview.net/forum?id=t1jLRFvBqm
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Sancaktar2023:RAIR
+  title: Regularity as Intrinsic Reward for Free Play
+  authors:
+  - '**Cansu Sancaktar**'
+  - Justus Piater
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing Systems 37
+  date: '2023-12-01'
+  link: https://openreview.net/forum?id=BHHrX3CRE1
+  type: paper
+  image: images/projects/regularity-free-play/teaser.webp
+  projects:
+  - regularity-free-play
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: bagatella2023goal-conditioned
+  title: Goal-conditioned Offline Planning from Curious Exploration
+  authors:
+  - '**Marco Bagatella**'
+  - '**Georg Martius**'
+  date: '2023-12-01'
+  link: https://openreview.net/forum?id=QlbZabgMdK
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Andrussow23-AIS-Minsight
+  title: 'Minsight: A Fingertip-Sized Vision-Based Tactile Sensor for Robotic Manipulation'
+  authors:
+  - '**Iris Andrussow**'
+  - Huanbo Sun
+  - Katherine J. Kuchenbecker
+  - '**Georg Martius**'
+  publisher: Advanced Intelligent Systems
+  date: '2023-08-01'
+  link: https://doi.org/10.1002/aisy.202300042
+  type: journal
+  image: images/projects/insight-haptic-sensor/teaser.webp
+  projects:
+  - insight-haptic-sensor
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: SahooPaulus2023:Identity
+  title: 'Backpropagation through Combinatorial Algorithms: Identity with Projection
+    Works'
+  authors:
+  - Subham Sahoo
+  - '**Anselm Paulus**'
+  - '**Marin Vlastelica**'
+  - "V\xC3\xADt Musil"
+  - Volodymyr Kuleshov
+  - '**Georg Martius**'
+  publisher: Proceedings of the Eleventh International Conference on Learning Representations
+  date: '2023-05-01'
+  link: https://openreview.net/forum?id=JZMR727O29
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: schumacher2023:deprl
+  title: 'DEP-RL: Embodied Exploration for Reinforcement Learning in Overactuated
+    and Musculoskeletal Systems'
+  authors:
+  - Pierre Schumacher
+  - Daniel F.B. Haeufle
+  - "Dieter B\xFCchler"
+  - Syn Schmitt
+  - '**Georg Martius**'
+  publisher: Proceedings of the Eleventh International Conference on Learning Representations
+    (ICLR)
+  date: '2023-05-01'
+  link: https://openreview.net/forum?id=C-xa_D3oTj6
+  type: paper
+  image: images/projects/dep-rl/teaser.webp
+  projects:
+  - dep-rl
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: benchmarkingofflinerl
+  title: Benchmarking Offline Reinforcement Learning on Real-Robot Hardware
+  authors:
+  - "**Nico G\xFCrtler**"
+  - Sebastian Blaes
+  - '**Pavel Kolev**'
+  - '**Felix Widmaier**'
+  - "Manuel W\xFCthrich"
+  - Stefan Bauer
+  - "Bernhard Sch\xF6lkopf"
+  - '**Georg Martius**'
+  publisher: Proceedings of the Eleventh International Conference on Learning Representations
+  date: '2023-05-01'
+  link: https://openreview.net/forum?id=3k5CUGDLNdd
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: EberhardEtal2023:PinkNoise
+  title: 'Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement
+    Learning'
+  authors:
+  - Onno Eberhard
+  - Jakob Hollenstein
+  - Cristina Pinneri
+  - '**Georg Martius**'
+  publisher: Proceedings of the Eleventh International Conference on Learning Representations
+    (ICLR)
+  date: '2023-05-01'
+  link: https://openreview.net/forum?id=hQ9V5QN27eS
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: li2023cassi
+  title: Versatile Skill Control via Self-supervised Adversarial Imitation of Unlabeled
+    Mixed Motions
+  authors:
+  - C. Li
+  - S. Blaes
+  - '**P. Kolev**'
+  - '**M. Vlastelica**'
+  - J. Frey
+  - '**G. Martius**'
+  publisher: Proceedings of the IEEE International Conference on Robotics and Automation
+    (ICRA)
+  date: '2023-05-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Seitzer2023BridgingTheGap
+  title: Bridging the Gap to Real-World Object-Centric Learning
+  authors:
+  - '**Maximilian Seitzer**'
+  - Max Horn
+  - '**Andrii Zadaianchuk**'
+  - Dominik Zietlow
+  - Tianjun Xiao
+  - Carl-Johann Simon-Gabriel
+  - Tong He
+  - Zheng Zhang
+  - "Bernhard Sch\xF6lkopf"
+  - Thomas Brox
+  - Francesco Locatello
+  publisher: Proceedings of the Eleventh International Conference on Learning Representations
+  date: '2023-05-01'
+  link: https://openreview.net/forum?id=b9tUk-f_aG
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Lee23-TASE-Map
+  title: Predicting the Force Map of an ERT-Based Tactile Sensor Using Simulation
+    and Deep Networks
+  authors:
+  - Hyosang Lee
+  - Huanbo Sun
+  - Hyunkyu Park
+  - Gokhan Serhat
+  - Bernard Javot
+  - '**Georg Martius**'
+  - Katherine J. Kuchenbecker
+  publisher: IEEE Transactions on Automation Science and Engineering
+  date: '2023-01-01'
+  link: https://doi.org/10.1109/TASE.2022.3156184
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: li2022wasabi
+  title: Learning Agile Skills via Adversarial Imitation of Rough Partial Demonstrations
+  authors:
+  - C. Li
+  - '**M. Vlastelica**'
+  - S. Blaes
+  - J. Frey
+  - F. Grimminger
+  - '**G. Martius**'
+  publisher: Proceedings of the 6th Conference on Robot Learning (CoRL)
+  date: '2022-12-01'
+  type: paper
+  image: images/projects/agile-skills-wasabi/teaser.webp
+  projects:
+  - agile-skills-wasabi
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Wochneretal22
+  title: 'Learning with Muscles: Benefits for Data-Efficiency and Robustness in Anthropomorphic
+    Tasks'
+  authors:
+  - I. Wochner
+  - P. Schumacher
+  - '**G. Martius**'
+  - "D. B\xFCchler"
+  - S. Schmitt
+  - D. Haeufle
+  publisher: Proceedings of the 6th Conference on Robot Learning (CoRL)
+  date: '2022-12-01'
+  link: https://openreview.net/forum?id=Xo3eOibXCQ8
+  type: paper
+  image: images/projects/muscles-learning-behavior/teaser.webp
+  projects:
+  - muscles-learning-behavior
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Richardson22-CORLWS-Sequential
+  title: A Sequential Group VAE for Robot Learning of Haptic Representations
+  authors:
+  - Benjamin A. Richardson
+  - Katherine J. Kuchenbecker
+  - '**Georg Martius**'
+  publisher: Workshop paper (8 pages) presented at the CoRL Workshop on Aligning Robot
+    Representations with Humans
+  date: '2022-12-01'
+  link: https://aligning-robot-human-representations.github.io/docs/camready_11.pdf
+  type: preprint
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Sancaktaretal2022:CEEUS
+  title: Curious Exploration via Structured World Models Yields Zero-Shot Object Manipulation
+  authors:
+  - '**Cansu Sancaktar**'
+  - Sebastian Blaes
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing Systems 35 (NeurIPS 2022)
+  date: '2022-12-01'
+  link: https://openreview.net/forum?id=NnuYZ1el24C
+  type: paper
+  image: images/projects/cee-us/teaser.webp
+  projects:
+  - cee-us
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Reizingeretal22
+  title: 'Embrace the Gap: VAEs Perform Independent Mechanism Analysis'
+  authors:
+  - P. Reizinger*
+  - L. Gresele*
+  - J. Brady*
+  - "J. von K\xFCgelgen"
+  - D. Zietlow
+  - "B. Sch\xF6lkopf"
+  - '**G. Martius**'
+  - W. Brendel
+  - M. Besserve
+  publisher: Advances in Neural Information Processing Systems 35 (NeurIPS 2022)
+  date: '2022-12-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Andrussow22-IROSWS-Manipulation
+  title: A Soft Vision-Based Tactile Sensor for Robotic Fingertip Manipulation
+  authors:
+  - '**Iris Andrussow**'
+  - Huanbo Sun
+  - Katherine J. Kuchenbecker
+  - '**Georg Martius**'
+  publisher: 'Workshop paper (1 page) presented at the IROS Workshop on Large-Scale
+    Robotic Skin: Perception, Interaction and Control'
+  date: '2022-10-01'
+  link: https://sites.google.com/view/iros2022ws-lsrobskin/list-of-contributors?authuser=0
+  type: preprint
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: gumbsch2022_hierarchical
+  title: Developing hierarchical anticipations via neural network-based event segmentation
+  authors:
+  - '**Christian Gumbsch**'
+  - Maurits Adam
+  - Birgit Elsner
+  - '**Georg Martius**'
+  - Martin V Butz
+  publisher: Proceedings of the IEEE International Conference on Development and Learning
+    (ICDL 2022)
+  date: '2022-09-01'
+  link: https://arxiv.org/abs/2206.02042
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2206.02042
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Seitzer2022Pitfalls
+  title: On the Pitfalls of Heteroscedastic Uncertainty Estimation with Probabilistic
+    Neural Networks
+  authors:
+  - '**Maximilian Seitzer**'
+  - Arash Tavakoli
+  - Dimitrije Antic
+  - '**Georg Martius**'
+  publisher: International Conference on Learning Representations
+  date: '2022-04-01'
+  link: https://openreview.net/forum?id=aPOpXlnV1T
+  type: paper
+  image: images/projects/beta-nll/teaser.webp
+  projects:
+  - beta-nll
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Sun2021:Theory-superresolution-skin
+  title: Guiding the Design of Super-resolution Tactile Skins with Taxel Value Isolines
+    Theory
+  authors:
+  - Huanbo Sun
+  - '**Georg Martius**'
+  publisher: Science Robotics
+  date: '2022-02-01'
+  link: https://www.science.org/stoken/author-tokens/ST-350/full
+  type: journal
+  image: images/projects/super-resolution-haptics/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1126/scirobotics.abm0608
+  projects:
+  - super-resolution-haptics
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Eppe2022
+  title: Intelligent problem-solving as integrated hierarchical reinforcement learning
+  authors:
+  - Manfred Eppe
+  - '**Christian Gumbsch**'
+  - Matthias Kerzel
+  - Phuong D. H. Nguyen
+  - Martin V. Butz
+  - Stefan Wermter
+  publisher: Nature Machine Intelligence
+  date: '2022-01-01'
+  link: https://rdcu.be/cFGsE
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/https://doi.org/10.1038/s42256-021-00433-9
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Insight
+  title: A Soft Thumb-Sized Vision-Based Sensor with Accurate All-Round Force Perception
+  authors:
+  - Huanbo Sun
+  - Katherine J. Kuchenbecker
+  - '**Georg Martius**'
+  publisher: Nature Machine Intelligence
+  date: '2022-02-01'
+  link: https://rdcu.be/cHCl9
+  type: journal
+  image: images/projects/insight-haptic-sensor/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1038/s42256-021-00439-3
+  projects:
+  - insight-haptic-sensor
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: WernerEtal2021:InformedEQL
+  title: Informed Equation Learning
+  authors:
+  - Matthias Werner
+  - Andrej Junginger
+  - Philipp Hennig
+  - '**Georg Martius**'
+  publisher: arXiv
+  date: '2021-01-01'
+  link: https://arxiv.org/abs/2105.06331
+  type: preprint
+  image: images/projects/symbolic-regression/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2105.06331
+  projects:
+  - symbolic-regression
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Werner2022:UncertaintyEQL
+  title: Uncertainty in Equation Learning
+  authors:
+  - Matthias Werner
+  - Andrej Junginger
+  - Philipp Hennig
+  - '**Georg Martius**'
+  publisher: Proceedings of the Genetic and Evolutionary Computation Conference Companion
+    (GECCO)
+  date: '2022-01-01'
+  link: https://doi.org/10.1145/3520304.3533964
+  type: paper
+  image: images/projects/symbolic-regression/teaser.webp
+  projects:
+  - symbolic-regression
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: VlastelicaBlaes2021:RiskAverse
+  title: Risk-Averse Zero-Order Trajectory Optimization
+  authors:
+  - Marin Vlastelica*
+  - Sebastian Blaes*
+  - Cristina Pinneri
+  - '**Georg Martius**'
+  publisher: Conference on Robot Learning
+  date: '2021-11-01'
+  type: paper
+  image: images/projects/risk-averse-planning/teaser.webp
+  projects:
+  - risk-averse-planning
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Seitzer2021CID
+  title: Causal Influence Detection for Improving Efficiency in Reinforcement Learning
+  authors:
+  - '**Maximilian Seitzer**'
+  - "Bernhard Sch\xF6lkopf"
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing Systems 34 (NeurIPS 2021)
+  date: '2021-12-01'
+  link: https://proceedings.neurips.cc/paper/2021/file/c1722a7941d61aad6e651a35b65a9c3e-Paper.pdf
+  type: paper
+  projects:
+  - causal-reasoning-rl
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: GurBucMar21
+  title: Hierarchical Reinforcement Learning with Timed Subgoals
+  authors:
+  - "**N. G\xFCrtler**"
+  - "D. B\xFCchler"
+  - '**G. Martius**'
+  publisher: Advances in Neural Information Processing Systems 34 (NeurIPS 2021)
+  date: '2021-12-01'
+  link: https://proceedings.neurips.cc/paper/2021/file/b59c21a078fde074a6750e91ed19fb21-Paper.pdf
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Bagatella2021:PPGS
+  title: Planning from Pixels in Environments with Combinatorially Hard Search Spaces
+  authors:
+  - '**Marco Bagatella**'
+  - "Mirek Ol\u0161\xE1k"
+  - "Michal Rol\xEDnek"
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing Systems (NeurIPS 2021)
+  date: '2021-12-01'
+  link: https://github.com/martius-lab/PPGS
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2110.06149
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Gumbsch2021:GateL0rd
+  title: Sparsely Changing Latent States for Prediction and Planning in Partially
+    Observable Domains
+  authors:
+  - '**Christian Gumbsch**'
+  - Martin V. Butz
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing Systems (NeurIPS 2021)
+  date: '2021-12-01'
+  link: https://arxiv.org/pdf/2110.15949.pdf
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2110.15949
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: ZadaianchukMartiusYang2021:self-supervised-subgoals
+  title: Self-supervised Reinforcement Learning with Independently Controllable Subgoals
+  authors:
+  - '**Andrii Zadaianchuk**'
+  - '**Georg Martius**'
+  - Fanny Yang
+  publisher: Conference on Robot Learning
+  date: '2021-11-01'
+  type: paper
+  image: images/projects/object-centric-rl/teaser.webp
+  projects:
+  - object-centric-rl
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: paulus2021:comboptnet
+  title: 'CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming
+    Constraints'
+  authors:
+  - '**Anselm Paulus**'
+  - "Michal Rol\xC3\xADnek"
+  - "V\xC3\xADt Musil"
+  - Brandon Amos
+  - '**Georg Martius**'
+  publisher: Proceedings of the 38th International Conference on Machine Learning
+  date: '2021-07-01'
+  link: https://proceedings.mlr.press/v139/paulus21a.html
+  type: paper
+  image: images/projects/comboptnet/teaser.webp
+  projects:
+  - comboptnet
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Mazza2021:timelocalgenerators
+  title: Machine learning time-local generators of open quantum dynamics
+  authors:
+  - Paolo P. Mazza
+  - Dominik Zietlow
+  - Federico Carollo
+  - Sabine Andergassen
+  - '**Georg Martius**'
+  - Igor Lesanovsky
+  publisher: Phys. Rev. Research
+  date: '2021-04-01'
+  link: https://link.aps.org/doi/10.1103/PhysRevResearch.3.023084
+  type: journal
+  image: images/projects/quantum-systems/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1103/PhysRevResearch.3.023084
+  projects:
+  - quantum-systems
+  - symbolic-regression
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Landgraf2021:RLforInspection
+  title: A Reinforcement Learning Approach to View Planning for Automated Inspection
+    Tasks
+  authors:
+  - Christian Landgraf
+  - Bernd Meese
+  - Michael Pabst
+  - '**Georg Martius**'
+  - Marco F. Huber
+  publisher: Sensors
+  date: '2021-01-01'
+  link: https://www.mdpi.com/1424-8220/21/6/2030
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/10.3390/s21062030
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: zietld2021:demystifying
+  title: Demystifying Inductive Biases for (Beta-)VAE Based Architectures
+  authors:
+  - Dominik Zietlow
+  - Michal Rolinek
+  - '**Georg Martius**'
+  publisher: Proceedings of the 2021 International Conference on Machine Learning
+    (ICML)
+  date: '2021-07-01'
+  type: paper
+  image: images/projects/representation-learning/teaser.webp
+  projects:
+  - representation-learning
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: ProsiEtal2021:dynamicalregime
+  title: The dynamical regime and its importance for evolvability, task performance
+    and generalization
+  authors:
+  - Jan Prosi
+  - Sina Khajehabdollahi
+  - Emmanouil Giannakakis
+  - '**Georg Martius**'
+  - Anna Levina
+  publisher: The 2021 Conference on Artificial Life
+  date: '2021-07-01'
+  link: https://arxiv.org/abs/2103.12184
+  type: paper
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2103.12184
+  - type: doi
+    link: https://doi.org/10.1162/isal_a_00412
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: pinneri2021:strong-policies
+  title: Extracting Strong Policies for Robotics Tasks from Zero-order Trajectory
+    Optimizers
+  authors:
+  - Cristina Pinneri
+  - Shambhuraj Sawant
+  - Sebastian Blaes
+  - '**Georg Martius**'
+  publisher: International Conference on Learning Representations
+  date: '2021-01-01'
+  type: paper
+  image: images/projects/policy-extraction/teaser.webp
+  projects:
+  - policy-extraction
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: zadaianchuk2021:visual-rl
+  title: Self-supervised Visual Reinforcement Learning with Object-centric Representations
+  authors:
+  - '**Andrii Zadaianchuk**'
+  - '**Maximilian Seitzer**'
+  - '**Georg Martius**'
+  publisher: International Conference on Learning Representations
+  date: '2021-01-01'
+  type: paper
+  image: images/projects/object-centric-rl/teaser.webp
+  projects:
+  - object-centric-rl
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: VlastelicaEtal2021:NeuroAlgorithmic
+  title: Neuro-algorithmic Policies Enable Fast Combinatorial Generalization
+  authors:
+  - '**Marin Vlastelica**'
+  - Michal Rolinek
+  - '**Georg Martius**'
+  publisher: Proceedings of the 2021 International Conference on Machine Learning
+    (ICML)
+  date: '2021-07-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: kloss_auro_2020
+  title: How to Train Your Differentiable Filter
+  authors:
+  - Alina Kloss
+  - '**Georg Martius**'
+  - Jeannette Bohg
+  publisher: Autonomous Robots
+  date: '2021-06-01'
+  link: https://link.springer.com/article/10.1007%2Fs10514-021-09990-9
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1007/s10514-021-09990-9
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: LacosseEtAL2021:jumping-over-baseline
+  title: Jumping over baselines with new methods to predict activation maps from resting-state
+    fMRI
+  authors:
+  - Eric Lacosse
+  - Klaus Scheffler
+  - Gabriele Lohmann
+  - '**Georg Martius**'
+  publisher: Scientific Reports
+  date: '2021-01-01'
+  type: journal
+  image: images/projects/fmri-brain-activity/teaser.webp
+  projects:
+  - fmri-brain-activity
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: PinneriEtAl2020:iCEM
+  title: Sample-efficient Cross-Entropy Method for Real-time Planning
+  authors:
+  - Cristina Pinneri
+  - Shambhuraj Sawant
+  - Sebastian Blaes
+  - Jan Achterhold
+  - Joerg Stueckler
+  - Michal Rolinek
+  - '**Georg Martius**'
+  publisher: Conference on Robot Learning (CoRL) 2020
   date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  link: https://corlconf.github.io/paper_217
+  type: paper
+  image: images/projects/icem/teaser.webp
+  projects:
+  - icem
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: RolinekEtAl2020:GraphMatching
+  title: Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Michal Rolinek
+  - Paul Swoboda
+  - Dominik Zietlow
+  - '**Anselm Paulus**'
+  - Vit Musil
+  - '**Georg Martius**'
+  publisher: "Computer Vision \u2013 ECCV 2020"
+  date: '2020-08-01'
+  link: https://arxiv.org/abs/2003.11657
+  type: paper
+  image: images/projects/deep-graph-matching/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2003.11657
+  projects:
+  - deep-graph-matching
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: RolinekEtAl2020:Rankbased
+  title: Optimizing Rank-based Metrics with Blackbox Differentiation
+  authors:
+  - "Michal Rol\u0131nek"
+  - "V\u0131t Musil"
+  - '**Anselm Paulus**'
+  - '**Marin Vlastelica**'
+  - Claudio Michaelis
+  - '**Georg Martius**'
+  publisher: Conference on Computer Vision and Pattern Recognition
+  date: '2020-01-01'
+  link: https://arxiv.org/abs/1912.03500
+  type: book
+  image: images/projects/rank-based-metrics/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1912.03500
+  - type: source
+    link: https://github.com/martius-lab/blackbox-backprop
+  projects:
+  - rank-based-metrics
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: VlastelicaEtal2020:BBoxSolvers
+  title: Differentiation of Blackbox Combinatorial Solvers
+  authors:
+  - '**Marin Vlastelica**'
+  - '**Anselm Paulus**'
+  - "V\xEDt Musil"
+  - '**Georg Martius**'
+  - "M. Rol\xEDnek"
+  publisher: International Conference on Learning Representations
+  date: '2020-01-01'
+  link: https://openreview.net/forum?id=BkevoJSYPB
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: ZhuMar20
+  title: Fast Non-Parametric Learning to Accelerate Mixed-Integer Programming for
+    Online Hybrid Model Predictive Control
+  authors:
+  - Jia-Jie Zhu
+  - '**Georg Martius**'
+  publisher: 21rst IFAC World Congress
+  date: '2020-07-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: LinMartiusOettel2020:FEQL-DFTML
+  title: Analytical classical density functionals from an equation learning network
+  authors:
+  - Shang-Chun Lin
+  - '**Georg Martius**'
+  - Martin Oettel
+  publisher: The Journal of Chemical Physics
+  date: '2020-01-01'
+  link: http://al.is.tuebingen.mpg.de/publications/linmartiusoettel2019-dftml
+  type: journal
+  image: images/projects/eql-statistical-physics/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1910.12752
+  - type: doi
+    link: https://doi.org/10.1063/1.5135919
+  projects:
+  - eql-statistical-physics
+  - symbolic-regression
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Khajehabdollahi2019
+  title: Assessing Aesthetics of Generated Abstract Images Using Correlation Structure
+  authors:
+  - Sina Khajehabdollahi
+  - '**Georg Martius**'
+  - Anna Levina
+  publisher: Proceedings 2019 IEEE Symposium Series on Computational Intelligence
+    (SSCI)
+  date: '2019-12-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: AgudeloEspanaetal20
+  title: A Real-Robot Dataset for Assessing Transferability of Learned Dynamics Models
+  authors:
+  - "D. Agudelo-Espa\xF1a"
+  - '**A. Zadaianchuk**'
+  - P. Wenk
+  - A. Garg
+  - J. Akpo
+  - F. Grimminger
+  - J. Viereck
+  - M. Naveau
+  - L. Righetti
+  - '**G. Martius**'
+  - A. Krause
+  - "B. Sch\xF6lkopf"
+  - S. Bauer
+  - "M. W\xFCthrich"
+  publisher: IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2020-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: SunMartius2019:ML4Haptics
+  title: 'Machine Learning for Haptics: Inferring Multi-Contact Stimulation From Sparse
+    Sensor Configuration'
+  authors:
+  - Huanbo Sun
+  - '**Georg Martius**'
+  publisher: Frontiers in Neurorobotics
+  date: '2019-01-01'
+  link: https://www.frontiersin.org/article/10.3389/fnbot.2019.00051
+  type: journal
+  image: images/projects/sparse-haptic-sensing/teaser.webp
+  projects:
+  - sparse-haptic-sensing
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: BlaesVlastelicaZhuMartius2019:CWYC
+  title: 'Control What You Can: Intrinsically Motivated Task-Planning Agent'
+  authors:
+  - Sebastian Blaes
+  - '**Marin Vlastelica**'
+  - Jia-Jie Zhu
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing (NeurIPS'19)
+  date: '2019-01-01'
+  link: http://papers.nips.cc/paper/9418-control-what-you-can-intrinsically-motivated-task-planning-agent.pdf
+  type: paper
+  image: images/projects/cwyc/teaser.webp
+  projects:
+  - cwyc
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: GumbschButzMartius2019:SUBMODES
+  title: Autonomous Identification and Goal-Directed Invocation of Event-Predictive
+    Behavioral Primitives
+  authors:
+  - '**Christian Gumbsch**'
+  - Martin V. Butz
+  - '**Georg Martius**'
+  publisher: IEEE Transactions on Cognitive and Developmental Systems
+  date: '2019-01-01'
+  link: https://doi.org/10.1109/TCDS.2019.2925890
+  type: journal
+  image: images/projects/self-exploration-of-behavior/teaser.webp
+  projects:
+  - self-exploration-of-behavior
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: BaumannZhuMartiusTrimpe2018:DeepRL-ETC
+  title: Deep Reinforcement Learning for Event-Triggered Control
+  authors:
+  - Dominik Baumann
+  - Jia-Jie Zhu
+  - '**Georg Martius**'
+  - Sebastian Trimpe
+  publisher: 2018 IEEE Conference on Decision and Control (CDC)
+  date: '2018-01-01'
+  link: http://al.is.tuebingen.mpg.de/publications/baumann2018deep
+  type: paper
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/CDC.2018.8619335
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: RolinekZietlowMartius2019:VAEPCA
+  title: Variational Autoencoders Pursue PCA Directions (by Accident)
+  authors:
+  - "Michal Rol\xEDnek"
+  - Dominik Zietlow
+  - '**Georg Martius**'
+  publisher: Conference on Computer Vision and Pattern Recognition (CVPR'19)
+  date: '2019-06-01'
+  type: paper
+  image: images/projects/representation-learning/teaser.webp
+  projects:
+  - representation-learning
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: RolinekMartius2018:L4
+  title: 'L4: Practical loss-based stepsize adaptation for deep learning'
+  authors:
+  - "Michal Rol\xEDnek"
+  - '**Georg Martius**'
+  publisher: Advances in Neural Information Processing (NeurIPS'18)
+  date: '2018-01-01'
+  link: http://papers.nips.cc/paper/7879-l4-practical-loss-based-stepsize-adaptation-for-deep-learning.pdf
+  type: paper
+  image: images/projects/l4-stepsize-adaptation/teaser.webp
+  projects:
+  - l4-stepsize-adaptation
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: bogomolovEtAl2019:falsification_nlopt
+  title: Falsification of Hybrid Systems using Symbolic Reachability and Trajectory
+    Splicing
+  authors:
+  - Sergiy Bogomolov
+  - Goran Frehse
+  - Amit Gurung
+  - Dongxu Li
+  - '**Georg Martius**'
+  - Rajarshi Ray
+  publisher: '22nd ACM Intl. Conf. on Hybrid Systems: Computation and Control (HSCC
+    2019)'
+  date: '2019-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: SunMartius2018:SingleTouchSensation
+  title: Robust Affordable 3D Haptic Sensation via Learning Deformation Patterns
+  authors:
+  - Huanbo Sun
+  - '**Georg Martius**'
+  publisher: Proceedings International Conference on Humanoid Robots (IEEE Humanoids)
+  date: '2018-01-01'
+  link: http://al.is.tuebingen.mpg.de/publications/sunmartius2018-singletouchsensation
+  type: paper
+  image: images/projects/sparse-haptic-sensing/teaser.webp
+  projects:
+  - sparse-haptic-sensing
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: SunMartius2018:SingleTouch
+  title: Robust and Cheap 3D Haptic Sensation using Deformation Patterns and Machine
+    Learning
+  authors:
+  - Huanbo Sun
+  - '**Georg Martius**'
+  publisher: IEEE-RAS International Conference on Humanoid Robots (Humanoids 2018)
+  date: '2018-01-01'
+  type: paper
+  image: images/projects/sparse-haptic-sensing/teaser.webp
+  projects:
+  - sparse-haptic-sensing
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: PinneriMartius2018:Repeller
+  title: Systematic self-exploration of behaviors for robots in a dynamical systems
+    framework
+  authors:
+  - Cristina Pinneri
+  - '**Georg Martius**'
+  publisher: Proc. Artificial Life XI
+  date: '2018-01-01'
+  link: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00062
+  type: paper
+  image: images/projects/self-exploration-of-behavior/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1162/isal\_a\_00062
+  projects:
+  - self-exploration-of-behavior
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: SahooLampertMartius2018:EQLDiv
+  title: Learning equations for extrapolation and control
+  authors:
+  - Subham S. Sahoo
+  - Christoph H. Lampert
+  - '**Georg Martius**'
+  publisher: Proc. 35th International Conference on Machine Learning, ICML 2018, Stockholm,
+    Sweden
+  date: '2018-01-01'
+  link: http://proceedings.mlr.press/v80/sahoo18a.html
+  type: paper
+  image: images/projects/symbolic-regression/teaser.webp
+  buttons:
+  - type: pdf
+    link: http://proceedings.mlr.press/v80/sahoo18a/sahoo18a.pdf
+  projects:
+  - symbolic-regression
+  - eql-extrapolation-control
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: BotellaSolerEtAl2018:NonlinearRetinaDecoding
+  title: Nonlinear decoding of a complex movie from the mammalian retina
+  authors:
+  - Vicente Botella-Soler
+  - "St\xE9phane Deny"
+  - '**Georg Martius**'
+  - Olivier Marre
+  - "Ga\u0161per Tka\u010Dik"
+  publisher: PLOS Computational Biology
+  date: '2018-05-01'
+  link: https://doi.org/10.1371/journal.pcbi.1006057
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusLampert2017:EQL
+  title: Extrapolation and learning equations
+  authors:
+  - '**Georg Martius**'
+  - Christoph H. Lampert
+  publisher: arXiv preprint
+  date: '2016-01-01'
+  link: https://arxiv.org/abs/1610.02995
+  type: preprint
+  image: images/projects/symbolic-regression/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1610.02995
+  projects:
+  - symbolic-regression
+  - eql-extrapolation-control
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusHostettlerKnollDer2016:IROS-MyoArm
+  title: 'Compliant control for soft robots: emergent behavior of a tendon driven
+    anthropomorphic arm.'
+  authors:
+  - '**Georg Martius**'
+  - Rafael Hostettler
+  - Alois Knoll
+  - Ralf Der
+  publisher: 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2016-01-01'
+  link: https://doi.org/10.1109/IROS.2016.7759138
+  type: paper
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2016/MartiusHostettlerKnollDer:IROS_watermark.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: DerMartius2016:ICDL-dyn-self-consistency
+  title: Dynamical self-consistency leads to behavioral development and emergent social
+    interactions in robots
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: 2016 Joint IEEE International Conference on Development and Learning
+    and Epigenetic Robotics (ICDL-EpiRob)
+  date: '2016-09-01'
+  link: https://doi.org/10.1109/DEVLRN.2016.7846789
+  type: paper
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2016/DerMartius2016:ICDL-dyn-self-consistency.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: DerMartius2017:SOMusculo
+  title: Self-Organized Behavior Generation for Musculoskeletal Robots
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: Frontiers in Neurorobotics
+  date: '2017-01-01'
+  link: http://journal.frontiersin.org/article/10.3389/fnbot.2017.00008
+  type: journal
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/1602.02990
+  - type: doi
+    link: https://doi.org/10.3389/fnbot.2017.00008
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: DerMartius2015:DEP
+  title: Novel plasticity rule can explain the development of sensorimotor intelligence
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2015-01-01'
+  link: http://www.pnas.org/content/112/45/E6224.abstract
+  type: journal
+  image: images/projects/self-exploration-of-behavior/teaser.webp
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1073/pnas.1508400112
+  projects:
+  - self-exploration-of-behavior
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusOlbrich2015:QuantBehavior
+  title: Quantifying Emergent Behavior of Autonomous Robots
+  authors:
+  - '**Georg Martius**'
+  - Eckehard Olbrich
+  publisher: Entropy
+  date: '2015-01-01'
+  link: http://www.mdpi.com/1099-4300/17/10/7266
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/10.3390/e17107266
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: derfeeling05
+  title: Learning to Feel the Physics of a Body
+  authors:
+  - Ralf Der
+  - Frank Hesse
+  - '**Georg Martius**'
+  publisher: Computational Intelligence for Modelling, Control and Automation, CIMCA
+    2005
+  date: '2005-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: dermartius:babble06
+  title: 'From Motor Babbling to Purposive Actions: Emerging Self-exploration in a
+    Dynamical Systems Approach to Early Robot Development'
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: Proc. From Animals to Animats 9, SAB 2006
+  date: '2006-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: DerMartius13
+  title: Behavior as broken symmetry in embodied self-organizing robots
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: Advances in Artificial Life, ECAL 2013
+  date: '2013-01-01'
+  link: http://robot.informatik.uni-leipzig.de/research/publications/2013/ECAL2013.pdf
+  type: book
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2013/ECAL2013.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: DerMartius11
+  title: The Playful Machine - Theoretical Foundation and Practical Realization of
+    Self-Organizing Robots
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: Springer
+  date: '2012-01-01'
+  link: http://playfulmachines.com
+  type: book
+  image: images/projects/playful-machine/teaser.webp
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2012/the-playful-machine.pdf
+  projects:
+  - playful-machine
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: TutorialPlayfulmachines
+  title: 'Playful Machines: Tutorial'
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  publisher: <http://robot.informatik.uni-leipzig.de/tutorial?lang=en>
+  date: '2010-01-01'
+  type: preprint
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: derspherical06
+  title: "Let It Roll \u2013 Emerging Sensorimotor Coordination in a Spherical Robot"
+  authors:
+  - Ralf Der
+  - '**Georg Martius**'
+  - Frank Hesse
+  publisher: Proc, Artificial Life X
+  date: '2006-08-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: hesse:sensorbased09
+  title: A Sensor-Based Learning Algorithm for the Self-Organization of Robot Behavior
+  authors:
+  - Frank Hesse
+  - '**Georg Martius**'
+  - Ralf Der
+  - J. Michael Herrmann
+  publisher: Algorithms
+  date: '2009-01-01'
+  link: http://www.mdpi.com/1999-4893/2/1/398
+  type: journal
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: Martius2012
+  title: Robustness of guided self-organization against sensorimotor disruptions
+  authors:
+  - '**Georg Martius**'
+  publisher: Advances in Complex Systems
+  date: '2013-01-01'
+  link: https://doi.org/10.1142/S021952591350001X
+  type: journal
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2012/martius_robustness_of_gso_12_watermark.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martius:diss10
+  title: Goal-Oriented Control of Self-Organizing Behavior in Autonomous Robots
+  authors:
+  - '**Georg Martius**'
+  publisher: "Georg-August-Universit\xE4t G\xF6ttingen"
+  date: '2010-01-01'
+  link: http://resolver.sub.uni-goettingen.de/purl/?webdoc-2459
+  type: thesis
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusDerAy2013
+  title: Information Driven Self-Organization of Complex Robotic Behaviors
+  authors:
+  - '**Georg Martius**'
+  - Ralf Der
+  - Nihat Ay
+  publisher: PLoS ONE
+  date: '2013-01-01'
+  link: http://dx.doi.org/10.1371/journal.pone.0063400
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1371/journal.pone.0063400
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusDerHerrmann14
+  title: Robot Learning by Guided Self-Organization
+  authors:
+  - '**Georg Martius**'
+  - Ralf Der
+  - J. Michael Herrmann
+  publisher: 'Guided Self-Organization: Inception'
+  date: '2014-01-01'
+  link: http://dx.doi.org/10.1007/978-3-642-53734-9_8
+  type: book
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1007/978-3-642-53734-9_8
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martius:struct_behav08
+  title: Structure from Behavior in Autonomous Agents
+  authors:
+  - '**Georg Martius**'
+  - Katja Fiedler
+  - J. Michael Herrmann
+  publisher: Proc. IEEE Intl. Conf. Intelligent Robots and Systems (IROS 2008)
+  date: '2008-01-01'
+  link: https://doi.org/10.1109/IROS.2008.4651231
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martiusherrmann:taming10
+  title: 'Taming the Beast: Guided Self-organization of Behavior in Autonomous Robots'
+  authors:
+  - '**Georg Martius**'
+  - J. Michael Herrmann
+  publisher: From Animals to Animats 11
+  date: '2010-01-01'
+  link: http://dx.doi.org/10.1007/978-3-642-15193-4_5
+  type: book
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1007/978-3-642-15193-4_5
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martiusherrmann:variantsofgso12
+  title: Variants of guided self-organization for robot control
+  authors:
+  - '**Georg Martius**'
+  - J. Michael Herrmann
+  publisher: Theory in Biosci.
+  date: '2012-01-01'
+  link: http://dx.doi.org/10.1007/s12064-011-0141-0
+  type: journal
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2012/martiusherrmann_variantsofgso_12_watermark.pdf
+  - type: doi
+    link: https://doi.org/10.1007/s12064-011-0141-0
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martiusherrmann:tippingscales11
+  title: 'Tipping the Scales: Guidance and Intrinsically Motivated Behavior'
+  authors:
+  - '**Georg Martius**'
+  - J. M. Herrmann
+  publisher: Advances in Artificial Life, ECAL 2011
+  date: '2011-01-01'
+  link: http://robot.informatik.uni-leipzig.de/research/publications/2011/martiusherrmann11_tippingscales.pdf
+  type: book
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2011/martiusherrmann11_tippingscales.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martius:guidedselforg07
+  title: Guided Self-organisation for Autonomous Robot Development
+  authors:
+  - '**Georg Martius**'
+  - J. Michael Herrmann
+  - Ralf Der
+  publisher: Advances in Artificial Life 9th European Conference, ECAL 2007
+  date: '2007-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: lpzrobots10
+  title: 'LpzRobots: A free and powerful robot simulator'
+  authors:
+  - '**Georg Martius**'
+  - Frank Hesse
+  - "Frank G\xFCttler"
+  - Ralf Der
+  publisher: <http://robot.informatik.uni-leipzig.de/software>
+  date: '2010-01-01'
+  type: preprint
+  image: images/projects/playful-machine/teaser.webp
+  projects:
+  - playful-machine
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: MartiusJahnHauserHafner2014:Stumpy
+  title: Self-Exploration of the Stumpy Robot with Predictive Information Maximization
+  authors:
+  - '**Georg Martius**'
+  - Luisa Jahn
+  - Helmut Hauser
+  - Verena V. Hafner
+  publisher: Proc. From Animals to Animats, SAB 2014
+  date: '2014-01-01'
+  link: http://robot.informatik.uni-leipzig.de/research/publications/2014/MartiusJahnHauserHafner2014:Stumpy.pdf
+  type: paper
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2014/MartiusJahnHauserHafner2014:Stumpy.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: martius:interaction08
+  title: Emergence of Interaction Among Adaptive Agents
+  authors:
+  - '**Georg Martius**'
+  - Stefano Nolfi
+  - J. Michael Herrmann
+  publisher: Proc. From Animals to Animats 10 (SAB 2008)
+  date: '2008-01-01'
+  link: https://doi.org/10.1007/978-3-540-69134-1
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: ZahediMartiusAy2013
+  title: 'Linear combination of one-step predictive information with an external reward
+    in an episodic policy gradient setting: a critical analysis'
+  authors:
+  - Keyan Zahedi
+  - '**Georg Martius**'
+  - Nihat Ay
+  publisher: Frontiers in Psychology
+  date: '2013-01-01'
+  link: http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2013.00801/abstract
+  type: journal
+  buttons:
+  - type: doi
+    link: https://doi.org/10.3389/fpsyg.2013.00801
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: ZahediMartiusAy12:gso5
+  title: Predictive information in reinforcement learning of embodied agents
+  authors:
+  - Keyan Zahedi
+  - '**Georg Martius**'
+  - Nihat Ay
+  publisher: Int. Workshop on Guided Self-Organization 5
+  date: '2012-01-01'
+  type: paper
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: derhessemartius05
+  title: Rocking Stamper and Jumping Snake from a Dynamical System Approach to Artificial
+    Life
+  authors:
+  - Ralf Der
+  - Frank Hesse
+  - '**Georg Martius**'
+  publisher: Adaptive Behavior
+  date: '2006-01-01'
+  link: https://doi.org/10.1177/105971230601400202
+  type: journal
+  buttons:
+  - type: pdf
+    link: http://robot.informatik.uni-leipzig.de/research/publications/2005/rockstump_AdaptBeh.pdf
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: vlastelica2024:offlinediversity
+  title: Offline Diversity Maximization Under Imitation Constraints
+  authors:
+  - '**Marin Vlastelica**'
+  - Jin Cheng
+  - '**Georg Martius**'
+  - '**Pavel Kolev**'
+  publisher: arXiv preprint
+  date: '2024-01-01'
+  link: https://arxiv.org/abs/2307.11373
+  type: preprint
+  image: images/projects/offline-diversity-imitation/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2307.11373
+  projects:
+  - offline-diversity-imitation
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: kolev2026:dualforce
+  title: 'Dual-Force: Enhanced Offline Diversity Maximization under Imitation Constraints'
+  authors:
+  - '**Pavel Kolev**'
+  - '**Marin Vlastelica**'
+  - '**Georg Martius**'
+  publisher: arXiv preprint
+  date: '2026-01-01'
+  link: https://arxiv.org/abs/2501.04426
+  type: preprint
+  image: images/projects/offline-diversity-imitation/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2501.04426
+  projects:
+  - offline-diversity-imitation
+  plugin: bibtex.py
+  file: bibtex.yaml
+- id: cheng2023:dominic
+  title: Learning Diverse Skills for Local Navigation under Multi-constraint Optimality
+  authors:
+  - Jin Cheng
+  - '**Marin Vlastelica**'
+  - '**Pavel Kolev**'
+  - Chenhao Li
+  - '**Georg Martius**'
+  publisher: arXiv preprint
+  date: '2023-01-01'
+  link: https://arxiv.org/abs/2310.02440
+  type: preprint
+  image: images/projects/dominic/teaser.webp
+  buttons:
+  - type: arxiv
+    link: https://arxiv.org/abs/2310.02440
+  projects:
+  - dominic
+  plugin: bibtex.py
+  file: bibtex.yaml

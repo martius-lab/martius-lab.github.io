@@ -2,26 +2,38 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research areas and projects
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are interested in autonomous learning, that is how an embodied agent can determine what to learn, how to learn, and how to judge the learning success.
+In particular, we focus on learning to control a robotic body in a developmental fashion.
+Below are our research areas and projects. All our papers are listed on the [Publications]({{ "publications/" | relative_url }}) page.
+
+{% for area in site.data.research-areas %}
 
 {% include section.html %}
 
-## Highlighted
+<h2 id="{{ area.key }}">{{ area.title }}</h2>
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% if area.image %}
+  {% include feature.html image=area.image text=area.description flip=area.flip %}
+{% else %}
+  {{ area.description | markdownify }}
+{% endif %}
 
-{% include section.html %}
+{% assign projects = site.projects | where: "area", area.key | sort: "order", "last" %}
+{% for project in projects %}
+  {%
+    include card.html
+    title=project.title
+    subtitle=project.subtitle
+    image=project.image
+    link=project.url
+    description=project.description
+    style=area.card-style
+  %}
+{% endfor %}
 
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+{% endfor %}

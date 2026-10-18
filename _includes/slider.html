@@ -1,0 +1,25 @@
+{% assign slides = site.data[include.data] %}
+
+<div class="slider" data-interval="{{ include.interval | default: 6000 }}">
+  <div class="slider-track">
+    {% for slide in slides %}
+      <figure class="slider-slide">
+        <img
+          src="{{ slide.image | relative_url | uri_escape }}"
+          alt="{{ slide.caption | default: "slide" | regex_strip }}"
+          {% unless forloop.first %}loading="lazy"{% endunless %}
+          {% include fallback.html %}
+        >
+        {% if slide.caption %}
+          <figcaption class="slider-caption">{{ slide.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+  <button class="slider-prev" aria-label="previous slide">
+    {% include icon.html icon="fa-solid fa-chevron-left" %}
+  </button>
+  <button class="slider-next" aria-label="next slide">
+    {% include icon.html icon="fa-solid fa-chevron-right" %}
+  </button>
+</div>

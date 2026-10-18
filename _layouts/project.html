@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% assign area = site.data.research-areas
+  | where: "key", page.area
+  | first
+%}
+
+<p class="project-area">
+  <a href="{{ "research/" | relative_url }}{% if area %}#{{ area.key }}{% endif %}">
+    {% include icon.html icon="fa-solid fa-arrow-left" %}
+    {{ area.title | default: "Research" }}
+  </a>
+</p>
+
+<h1>{{ page.title }}</h1>
+
+{% if page.subtitle %}
+  <p class="project-subtitle">{{ page.subtitle }}</p>
+{% endif %}
+
+{{ content }}
+
+{% comment %}
+  papers tagged with this project in the bib file (projects = {slug, ...})
+{% endcomment %}
+{% capture filter %}(projects || []).include?("{{ page.slug }}"){% endcapture %}
+{% assign papers = site.data.citations | data_filter: filter %}
+
+{% if papers.size > 0 %}
+  {% include section.html %}
+
+  <h2 id="publications">Publications</h2>
+
+  {% include list.html data="citations" component="citation" style="rich" filter=filter %}
+{% endif %}
