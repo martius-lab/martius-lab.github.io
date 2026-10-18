@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-News, announcements, and stories from the Autonomous Learning group.
+News, announcements, and stories from the Autonomous Learning Group.
 
 {% include section.html %}
 

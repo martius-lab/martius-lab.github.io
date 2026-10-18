@@ -1,7 +1,9 @@
 ---
 ---
 
-# Distributed Intelligence / Autonomous Learning
+# Autonomous Learning Group
+
+**Distributed Intelligence / Autonomous Learning**, Department of Computer Science, University of Tübingen
 
 We are interested in autonomous learning, that is how an embodied agent can determine what to learn, how to learn, and how to judge the learning success.
 In particular, we focus on learning to control a robotic body in a developmental fashion.

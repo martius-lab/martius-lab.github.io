@@ -18,7 +18,7 @@ I am a member of the Cluster of Excellence “Machine Learning: New Perspectives
 ## Short CV
 
 - **since April 2023**: Full Professor at Tübingen University, Department of Computer Science
-- **March 2024**: Max Planck Research Group Leader, MPI for Intelligent Systems
+- **2017 – March 2024**: Max Planck Research Group Leader, MPI for Intelligent Systems
 - **2017**: Independent Post-doc Fellow at Institute of Science and Technology Austria
 - **2015**: Post-doctoral position at Max Planck Institute for Mathematics in the Sciences, Leipzig, Germany
 - **2010**: Post-doctoral position at Max Planck Institute for Dynamics and Self-Organization, Göttingen

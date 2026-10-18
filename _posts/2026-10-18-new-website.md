@@ -5,6 +5,6 @@ tags:
   - news
 ---
 
-Welcome to the new website of the Autonomous Learning group!
+Welcome to the new website of the Autonomous Learning Group!
 Here you will find our research projects, all our publications, and news from the group.
 Teaching and open positions remain on the [university website]({{ "teaching/" | relative_url }}).

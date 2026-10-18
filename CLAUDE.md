@@ -1,4 +1,4 @@
-# Autonomous Learning group website
+# Autonomous Learning Group website
 
 Jekyll site based on [greenelab/lab-website-template](https://github.com/greenelab/lab-website-template), served at https://martius-lab.github.io/ via GitHub Pages (`gh-pages` branch, built by GitHub Actions).
 Teaching and open positions stay on the university TYPO3 site; `teaching/` and `open-positions/` only redirect there.
@@ -15,7 +15,8 @@ Teaching and open positions stay on the university TYPO3 site; `teaching/` and `
 | Team | `_members/<slug>.md` | `role`: principal-investigator, admin, postdoc, researcher, phd, student, alumni. |
 | Team photos | `images/team/<slug>.webp` | ~600px max. |
 | News | `_posts/YYYY-MM-DD-title.md` | Shown on `/blog/` and the last year's posts on the home page. |
-| Group photos, logos | `images/group/`, `images/funders/` | |
+| Group photos | `images/group/` + `_data/group-photos.yaml` | Slider on home and team page, newest first. |
+| Logos | `images/logo.png` (white, header), `images/icon.png` (favicon), `images/logo-full.png`, `images/funders/` | Sources in `content/Logo/`. |
 
 `content/` holds raw source material (old project figures, the original bib, a report PDF). It is gitignored and not published.
 
@@ -52,6 +53,12 @@ uv venv .venv && uv pip install --python .venv/bin/python -r _cite/requirements.
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 bundle exec jekyll serve   # http://localhost:4000
 ```
+
+## Third-party assets
+
+Fonts (Barlow, Roboto Mono), Font Awesome, and the template's JS libraries are served from `assets/vendor/` so pages make no requests to external servers (GDPR).
+To update them, edit versions in `_vendor/fetch.py` and run `python3 _vendor/fetch.py`.
+Don't add CDN links or embeds that load from other servers without asking.
 
 ## Template conventions
 
