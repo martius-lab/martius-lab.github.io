@@ -35,13 +35,6 @@ header a {
   height: 100%;
 }
 
-.logo[data-badge] {
-  box-sizing: content-box;
-  padding: 10px 14px;
-  border-radius: var(--rounded);
-  background: rgba(255, 255, 255, 0.8784313725);
-}
-
 .title-text {
   display: flex;
   justify-content: flex-start;
